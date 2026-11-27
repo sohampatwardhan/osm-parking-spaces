@@ -6,7 +6,8 @@
 osm_parking_spaces/                    CLI, OSM/GeoJSON IO, WMS, detection, export
 tests/                                 offline tests and small fixtures
 tests/fixtures/                        cropped imagery, polygon, sample OSM XML
-examples/way-<id>/                     stalls.geojson, stalls.osc, preview.png
+tests/ground_truth/                    hand-traced stall GeoJSON for the ShopRite lots
+examples/way-<id>/                     stalls.geojson, stalls.osc, preview.png, eval.png
 .github/workflows/ci.yml
 ```
 

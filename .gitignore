@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+dist/
+build/
+# Datasets, checkpoints, packages and scratch output are regenerated. See README.
+data/
+runs/
+out/
+logs/
+*.pt
+*.pth
+*.npz
+*.mlpackage
+!tests/fixtures/*.npz

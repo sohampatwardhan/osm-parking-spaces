@@ -4,4 +4,8 @@
 
 The user reviews the GeoJSON, the preview, and a create-only OsmChange file, then uploads with their own OSM account if the stalls look right. This tool never uploads and never asks for OSM credentials.
 
+A second detector, tracked in issue #3, learns stall interiors from other New Jersey lots. The ShopRite evaluation lots stay out of that training set. Both detectors write the same review files.
+
 The first site is the ShopRite Heritage Plaza lots in Monmouth Junction, New Jersey (OSM ways 1329737820 and 1329737821), using NJOGIS 2020 natural-color orthoimagery.
+
+A third path, issue #4, fuses the two: the classical detector proposes rows and the learned mask checks, extends and trims them. It writes the same review files.

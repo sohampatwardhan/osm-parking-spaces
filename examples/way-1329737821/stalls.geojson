@@ -1,0 +1,6517 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.573149,
+              40.3844973
+            ],
+            [
+              -74.5731055,
+              40.3844641
+            ],
+            [
+              -74.5730806,
+              40.3844839
+            ],
+            [
+              -74.5731244,
+              40.3845173
+            ],
+            [
+              -74.573149,
+              40.3844973
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5731244,
+              40.3845173
+            ],
+            [
+              -74.5730806,
+              40.3844839
+            ],
+            [
+              -74.5730557,
+              40.3845036
+            ],
+            [
+              -74.5730998,
+              40.3845373
+            ],
+            [
+              -74.5731244,
+              40.3845173
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5730998,
+              40.3845373
+            ],
+            [
+              -74.5730557,
+              40.3845036
+            ],
+            [
+              -74.5730307,
+              40.3845234
+            ],
+            [
+              -74.5730753,
+              40.3845574
+            ],
+            [
+              -74.5730998,
+              40.3845373
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5730753,
+              40.3845574
+            ],
+            [
+              -74.5730307,
+              40.3845234
+            ],
+            [
+              -74.5730058,
+              40.3845432
+            ],
+            [
+              -74.5730507,
+              40.3845774
+            ],
+            [
+              -74.5730753,
+              40.3845574
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5730507,
+              40.3845774
+            ],
+            [
+              -74.5730058,
+              40.3845432
+            ],
+            [
+              -74.5729809,
+              40.3845629
+            ],
+            [
+              -74.5730261,
+              40.3845974
+            ],
+            [
+              -74.5730507,
+              40.3845774
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5730261,
+              40.3845974
+            ],
+            [
+              -74.5729809,
+              40.3845629
+            ],
+            [
+              -74.572956,
+              40.3845827
+            ],
+            [
+              -74.5730015,
+              40.3846174
+            ],
+            [
+              -74.5730261,
+              40.3845974
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5730015,
+              40.3846174
+            ],
+            [
+              -74.572956,
+              40.3845827
+            ],
+            [
+              -74.5729311,
+              40.3846025
+            ],
+            [
+              -74.5729769,
+              40.3846375
+            ],
+            [
+              -74.5730015,
+              40.3846174
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5729769,
+              40.3846375
+            ],
+            [
+              -74.5729311,
+              40.3846025
+            ],
+            [
+              -74.5729061,
+              40.3846222
+            ],
+            [
+              -74.5729523,
+              40.3846575
+            ],
+            [
+              -74.5729769,
+              40.3846375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5729523,
+              40.3846575
+            ],
+            [
+              -74.5729061,
+              40.3846222
+            ],
+            [
+              -74.5728812,
+              40.384642
+            ],
+            [
+              -74.5729277,
+              40.3846775
+            ],
+            [
+              -74.5729523,
+              40.3846575
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5729277,
+              40.3846775
+            ],
+            [
+              -74.5728812,
+              40.384642
+            ],
+            [
+              -74.5728563,
+              40.3846618
+            ],
+            [
+              -74.5729032,
+              40.3846975
+            ],
+            [
+              -74.5729277,
+              40.3846775
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5729032,
+              40.3846975
+            ],
+            [
+              -74.5728563,
+              40.3846618
+            ],
+            [
+              -74.5728314,
+              40.3846815
+            ],
+            [
+              -74.5728786,
+              40.3847175
+            ],
+            [
+              -74.5729032,
+              40.3846975
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5728786,
+              40.3847175
+            ],
+            [
+              -74.5728314,
+              40.3846815
+            ],
+            [
+              -74.5728065,
+              40.3847013
+            ],
+            [
+              -74.572854,
+              40.3847376
+            ],
+            [
+              -74.5728786,
+              40.3847175
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.572854,
+              40.3847376
+            ],
+            [
+              -74.5728065,
+              40.3847013
+            ],
+            [
+              -74.5727816,
+              40.3847211
+            ],
+            [
+              -74.5728294,
+              40.3847576
+            ],
+            [
+              -74.572854,
+              40.3847376
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5728294,
+              40.3847576
+            ],
+            [
+              -74.5727816,
+              40.3847211
+            ],
+            [
+              -74.5727566,
+              40.3847408
+            ],
+            [
+              -74.5728048,
+              40.3847776
+            ],
+            [
+              -74.5728294,
+              40.3847576
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5728048,
+              40.3847776
+            ],
+            [
+              -74.5727566,
+              40.3847408
+            ],
+            [
+              -74.5727317,
+              40.3847606
+            ],
+            [
+              -74.5727802,
+              40.3847976
+            ],
+            [
+              -74.5728048,
+              40.3847776
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5727802,
+              40.3847976
+            ],
+            [
+              -74.5727317,
+              40.3847606
+            ],
+            [
+              -74.5727068,
+              40.3847804
+            ],
+            [
+              -74.5727556,
+              40.3848177
+            ],
+            [
+              -74.5727802,
+              40.3847976
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5727556,
+              40.3848177
+            ],
+            [
+              -74.5727068,
+              40.3847804
+            ],
+            [
+              -74.5726819,
+              40.3848002
+            ],
+            [
+              -74.5727311,
+              40.3848377
+            ],
+            [
+              -74.5727556,
+              40.3848177
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5727311,
+              40.3848377
+            ],
+            [
+              -74.5726819,
+              40.3848002
+            ],
+            [
+              -74.572657,
+              40.3848199
+            ],
+            [
+              -74.5727065,
+              40.3848577
+            ],
+            [
+              -74.5727311,
+              40.3848377
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5727065,
+              40.3848577
+            ],
+            [
+              -74.572657,
+              40.3848199
+            ],
+            [
+              -74.5726321,
+              40.3848397
+            ],
+            [
+              -74.5726819,
+              40.3848777
+            ],
+            [
+              -74.5727065,
+              40.3848577
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5726819,
+              40.3848777
+            ],
+            [
+              -74.5726321,
+              40.3848397
+            ],
+            [
+              -74.5726071,
+              40.3848594
+            ],
+            [
+              -74.5726573,
+              40.3848977
+            ],
+            [
+              -74.5726819,
+              40.3848777
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5726573,
+              40.3848977
+            ],
+            [
+              -74.5726071,
+              40.3848594
+            ],
+            [
+              -74.5725822,
+              40.3848792
+            ],
+            [
+              -74.5726327,
+              40.3849178
+            ],
+            [
+              -74.5726573,
+              40.3848977
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 17.2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5726469,
+              40.3849223
+            ],
+            [
+              -74.5726053,
+              40.3848966
+            ],
+            [
+              -74.5725827,
+              40.3849179
+            ],
+            [
+              -74.5726236,
+              40.3849432
+            ],
+            [
+              -74.5726469,
+              40.3849223
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 17.2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5726236,
+              40.3849432
+            ],
+            [
+              -74.5725827,
+              40.3849179
+            ],
+            [
+              -74.5725602,
+              40.3849393
+            ],
+            [
+              -74.5726004,
+              40.3849641
+            ],
+            [
+              -74.5726236,
+              40.3849432
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5726922,
+              40.384392
+            ],
+            [
+              -74.5726362,
+              40.3843445
+            ],
+            [
+              -74.57261,
+              40.3843633
+            ],
+            [
+              -74.5726656,
+              40.3844104
+            ],
+            [
+              -74.5726922,
+              40.384392
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5726656,
+              40.3844104
+            ],
+            [
+              -74.57261,
+              40.3843633
+            ],
+            [
+              -74.5725839,
+              40.3843821
+            ],
+            [
+              -74.5726389,
+              40.3844288
+            ],
+            [
+              -74.5726656,
+              40.3844104
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 26,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5726389,
+              40.3844288
+            ],
+            [
+              -74.5725839,
+              40.3843821
+            ],
+            [
+              -74.5725577,
+              40.384401
+            ],
+            [
+              -74.5726123,
+              40.3844472
+            ],
+            [
+              -74.5726389,
+              40.3844288
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 27,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5726123,
+              40.3844472
+            ],
+            [
+              -74.5725577,
+              40.384401
+            ],
+            [
+              -74.5725316,
+              40.3844197
+            ],
+            [
+              -74.5725856,
+              40.3844656
+            ],
+            [
+              -74.5726123,
+              40.3844472
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 28,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5725856,
+              40.3844656
+            ],
+            [
+              -74.5725316,
+              40.3844197
+            ],
+            [
+              -74.5725054,
+              40.3844386
+            ],
+            [
+              -74.5725589,
+              40.384484
+            ],
+            [
+              -74.5725856,
+              40.3844656
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5725589,
+              40.384484
+            ],
+            [
+              -74.5725054,
+              40.3844386
+            ],
+            [
+              -74.5724793,
+              40.3844574
+            ],
+            [
+              -74.5725323,
+              40.3845023
+            ],
+            [
+              -74.5725589,
+              40.384484
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5725323,
+              40.3845023
+            ],
+            [
+              -74.5724793,
+              40.3844574
+            ],
+            [
+              -74.5724531,
+              40.3844762
+            ],
+            [
+              -74.5725056,
+              40.3845207
+            ],
+            [
+              -74.5725323,
+              40.3845023
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5725056,
+              40.3845207
+            ],
+            [
+              -74.5724531,
+              40.3844762
+            ],
+            [
+              -74.5724269,
+              40.384495
+            ],
+            [
+              -74.572479,
+              40.3845391
+            ],
+            [
+              -74.5725056,
+              40.3845207
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 32,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.572479,
+              40.3845391
+            ],
+            [
+              -74.5724269,
+              40.384495
+            ],
+            [
+              -74.5724008,
+              40.3845138
+            ],
+            [
+              -74.5724523,
+              40.3845575
+            ],
+            [
+              -74.572479,
+              40.3845391
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 33,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5724523,
+              40.3845575
+            ],
+            [
+              -74.5724008,
+              40.3845138
+            ],
+            [
+              -74.5723746,
+              40.3845326
+            ],
+            [
+              -74.5724256,
+              40.3845759
+            ],
+            [
+              -74.5724523,
+              40.3845575
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 34,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5724256,
+              40.3845759
+            ],
+            [
+              -74.5723746,
+              40.3845326
+            ],
+            [
+              -74.5723485,
+              40.3845514
+            ],
+            [
+              -74.572399,
+              40.3845943
+            ],
+            [
+              -74.5724256,
+              40.3845759
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 35,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.572399,
+              40.3845943
+            ],
+            [
+              -74.5723485,
+              40.3845514
+            ],
+            [
+              -74.5723223,
+              40.3845702
+            ],
+            [
+              -74.5723723,
+              40.3846127
+            ],
+            [
+              -74.572399,
+              40.3845943
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 36,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5723723,
+              40.3846127
+            ],
+            [
+              -74.5723223,
+              40.3845702
+            ],
+            [
+              -74.5722961,
+              40.3845891
+            ],
+            [
+              -74.5723457,
+              40.384631
+            ],
+            [
+              -74.5723723,
+              40.3846127
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 37,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5723389,
+              40.3841662
+            ],
+            [
+              -74.5722965,
+              40.3841303
+            ],
+            [
+              -74.5722693,
+              40.3841482
+            ],
+            [
+              -74.5723122,
+              40.3841846
+            ],
+            [
+              -74.5723389,
+              40.3841662
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 38,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5723122,
+              40.3841846
+            ],
+            [
+              -74.5722693,
+              40.3841482
+            ],
+            [
+              -74.5722422,
+              40.3841662
+            ],
+            [
+              -74.5722856,
+              40.384203
+            ],
+            [
+              -74.5723122,
+              40.3841846
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 39,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5722856,
+              40.384203
+            ],
+            [
+              -74.5722422,
+              40.3841662
+            ],
+            [
+              -74.572215,
+              40.3841842
+            ],
+            [
+              -74.5722589,
+              40.3842214
+            ],
+            [
+              -74.5722856,
+              40.384203
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 40,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5722589,
+              40.3842214
+            ],
+            [
+              -74.572215,
+              40.3841842
+            ],
+            [
+              -74.5721878,
+              40.3842021
+            ],
+            [
+              -74.5722323,
+              40.3842398
+            ],
+            [
+              -74.5722589,
+              40.3842214
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 41,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5722323,
+              40.3842398
+            ],
+            [
+              -74.5721878,
+              40.3842021
+            ],
+            [
+              -74.5721607,
+              40.38422
+            ],
+            [
+              -74.5722056,
+              40.3842581
+            ],
+            [
+              -74.5722323,
+              40.3842398
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 42,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5722056,
+              40.3842581
+            ],
+            [
+              -74.5721607,
+              40.38422
+            ],
+            [
+              -74.5721335,
+              40.384238
+            ],
+            [
+              -74.5721789,
+              40.3842766
+            ],
+            [
+              -74.5722056,
+              40.3842581
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 43,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5721789,
+              40.3842766
+            ],
+            [
+              -74.5721335,
+              40.384238
+            ],
+            [
+              -74.5721063,
+              40.384256
+            ],
+            [
+              -74.5721523,
+              40.3842949
+            ],
+            [
+              -74.5721789,
+              40.3842766
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 44,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5721523,
+              40.3842949
+            ],
+            [
+              -74.5721063,
+              40.384256
+            ],
+            [
+              -74.5720791,
+              40.3842739
+            ],
+            [
+              -74.5721256,
+              40.3843133
+            ],
+            [
+              -74.5721523,
+              40.3842949
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 45,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5721256,
+              40.3843133
+            ],
+            [
+              -74.5720791,
+              40.3842739
+            ],
+            [
+              -74.572052,
+              40.3842918
+            ],
+            [
+              -74.572099,
+              40.3843317
+            ],
+            [
+              -74.5721256,
+              40.3843133
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.572099,
+              40.3843317
+            ],
+            [
+              -74.572052,
+              40.3842918
+            ],
+            [
+              -74.5720248,
+              40.3843098
+            ],
+            [
+              -74.5720723,
+              40.3843501
+            ],
+            [
+              -74.572099,
+              40.3843317
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 47,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5720723,
+              40.3843501
+            ],
+            [
+              -74.5720248,
+              40.3843098
+            ],
+            [
+              -74.5719976,
+              40.3843278
+            ],
+            [
+              -74.5720457,
+              40.3843685
+            ],
+            [
+              -74.5720723,
+              40.3843501
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 48,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5720457,
+              40.3843685
+            ],
+            [
+              -74.5719976,
+              40.3843278
+            ],
+            [
+              -74.5719704,
+              40.3843457
+            ],
+            [
+              -74.572019,
+              40.3843868
+            ],
+            [
+              -74.5720457,
+              40.3843685
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 49,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.572019,
+              40.3843868
+            ],
+            [
+              -74.5719704,
+              40.3843457
+            ],
+            [
+              -74.5719433,
+              40.3843636
+            ],
+            [
+              -74.5719923,
+              40.3844052
+            ],
+            [
+              -74.572019,
+              40.3843868
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 50,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5719923,
+              40.3844052
+            ],
+            [
+              -74.5719433,
+              40.3843636
+            ],
+            [
+              -74.5719161,
+              40.3843816
+            ],
+            [
+              -74.5719657,
+              40.3844236
+            ],
+            [
+              -74.5719923,
+              40.3844052
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 51,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5719657,
+              40.3844236
+            ],
+            [
+              -74.5719161,
+              40.3843816
+            ],
+            [
+              -74.5718889,
+              40.3843996
+            ],
+            [
+              -74.571939,
+              40.384442
+            ],
+            [
+              -74.5719657,
+              40.3844236
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 52,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.571939,
+              40.384442
+            ],
+            [
+              -74.5718889,
+              40.3843996
+            ],
+            [
+              -74.5718618,
+              40.3844175
+            ],
+            [
+              -74.5719124,
+              40.3844604
+            ],
+            [
+              -74.571939,
+              40.384442
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 53,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 17.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5721876,
+              40.3841188
+            ],
+            [
+              -74.5721875,
+              40.3840765
+            ],
+            [
+              -74.5721516,
+              40.3840783
+            ],
+            [
+              -74.5721517,
+              40.3841215
+            ],
+            [
+              -74.5721876,
+              40.3841188
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 54,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 17.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5721517,
+              40.3841215
+            ],
+            [
+              -74.5721516,
+              40.3840783
+            ],
+            [
+              -74.5721157,
+              40.3840802
+            ],
+            [
+              -74.5721158,
+              40.3841242
+            ],
+            [
+              -74.5721517,
+              40.3841215
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 55,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 17.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5721158,
+              40.3841242
+            ],
+            [
+              -74.5721157,
+              40.3840802
+            ],
+            [
+              -74.5720798,
+              40.3840821
+            ],
+            [
+              -74.5720799,
+              40.3841268
+            ],
+            [
+              -74.5721158,
+              40.3841242
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 56,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 17.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5720799,
+              40.3841268
+            ],
+            [
+              -74.5720798,
+              40.3840821
+            ],
+            [
+              -74.5720439,
+              40.384084
+            ],
+            [
+              -74.572044,
+              40.3841295
+            ],
+            [
+              -74.5720799,
+              40.3841268
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 57,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 17.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.572044,
+              40.3841295
+            ],
+            [
+              -74.5720439,
+              40.384084
+            ],
+            [
+              -74.572008,
+              40.3840859
+            ],
+            [
+              -74.5720081,
+              40.3841322
+            ],
+            [
+              -74.572044,
+              40.3841295
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 58,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 17.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5720081,
+              40.3841322
+            ],
+            [
+              -74.572008,
+              40.3840859
+            ],
+            [
+              -74.5719721,
+              40.3840878
+            ],
+            [
+              -74.5719722,
+              40.3841348
+            ],
+            [
+              -74.5720081,
+              40.3841322
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 59,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 17.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5719722,
+              40.3841348
+            ],
+            [
+              -74.5719721,
+              40.3840878
+            ],
+            [
+              -74.5719362,
+              40.3840897
+            ],
+            [
+              -74.5719363,
+              40.3841375
+            ],
+            [
+              -74.5719722,
+              40.3841348
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 60,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 17.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5719363,
+              40.3841375
+            ],
+            [
+              -74.5719362,
+              40.3840897
+            ],
+            [
+              -74.5719004,
+              40.3840915
+            ],
+            [
+              -74.5719004,
+              40.3841402
+            ],
+            [
+              -74.5719363,
+              40.3841375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 61,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 17.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5719004,
+              40.3841402
+            ],
+            [
+              -74.5719004,
+              40.3840915
+            ],
+            [
+              -74.5718645,
+              40.3840934
+            ],
+            [
+              -74.5718645,
+              40.3841428
+            ],
+            [
+              -74.5719004,
+              40.3841402
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 62,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 17.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5718645,
+              40.3841428
+            ],
+            [
+              -74.5718645,
+              40.3840934
+            ],
+            [
+              -74.5718286,
+              40.3840953
+            ],
+            [
+              -74.5718286,
+              40.3841455
+            ],
+            [
+              -74.5718645,
+              40.3841428
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 63,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 17.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5718286,
+              40.3841455
+            ],
+            [
+              -74.5718286,
+              40.3840953
+            ],
+            [
+              -74.5717927,
+              40.3840972
+            ],
+            [
+              -74.5717927,
+              40.3841482
+            ],
+            [
+              -74.5718286,
+              40.3841455
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 64,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 16.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5727398,
+              40.3842683
+            ],
+            [
+              -74.572772,
+              40.3842199
+            ],
+            [
+              -74.5727413,
+              40.3842054
+            ],
+            [
+              -74.5727101,
+              40.3842524
+            ],
+            [
+              -74.5727398,
+              40.3842683
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 65,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 16.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5727101,
+              40.3842524
+            ],
+            [
+              -74.5727413,
+              40.3842054
+            ],
+            [
+              -74.5727107,
+              40.384191
+            ],
+            [
+              -74.5726804,
+              40.3842365
+            ],
+            [
+              -74.5727101,
+              40.3842524
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 66,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 16.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5726804,
+              40.3842365
+            ],
+            [
+              -74.5727107,
+              40.384191
+            ],
+            [
+              -74.57268,
+              40.3841766
+            ],
+            [
+              -74.5726507,
+              40.3842207
+            ],
+            [
+              -74.5726804,
+              40.3842365
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 67,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 16.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5726507,
+              40.3842207
+            ],
+            [
+              -74.57268,
+              40.3841766
+            ],
+            [
+              -74.5726492,
+              40.3841622
+            ],
+            [
+              -74.5726209,
+              40.3842048
+            ],
+            [
+              -74.5726507,
+              40.3842207
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 68,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 16.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5726209,
+              40.3842048
+            ],
+            [
+              -74.5726492,
+              40.3841622
+            ],
+            [
+              -74.5726186,
+              40.3841478
+            ],
+            [
+              -74.5725912,
+              40.3841889
+            ],
+            [
+              -74.5726209,
+              40.3842048
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 69,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 16.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5725912,
+              40.3841889
+            ],
+            [
+              -74.5726186,
+              40.3841478
+            ],
+            [
+              -74.5725879,
+              40.3841334
+            ],
+            [
+              -74.5725615,
+              40.3841731
+            ],
+            [
+              -74.5725912,
+              40.3841889
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 70,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 16.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5725615,
+              40.3841731
+            ],
+            [
+              -74.5725879,
+              40.3841334
+            ],
+            [
+              -74.5725572,
+              40.384119
+            ],
+            [
+              -74.5725318,
+              40.3841572
+            ],
+            [
+              -74.5725615,
+              40.3841731
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 71,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 16.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5725318,
+              40.3841572
+            ],
+            [
+              -74.5725572,
+              40.384119
+            ],
+            [
+              -74.5725265,
+              40.3841046
+            ],
+            [
+              -74.5725021,
+              40.3841413
+            ],
+            [
+              -74.5725318,
+              40.3841572
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 72,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 16.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5725021,
+              40.3841413
+            ],
+            [
+              -74.5725265,
+              40.3841046
+            ],
+            [
+              -74.5724958,
+              40.3840902
+            ],
+            [
+              -74.5724723,
+              40.3841255
+            ],
+            [
+              -74.5725021,
+              40.3841413
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 73,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 17.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5724776,
+              40.3841187
+            ],
+            [
+              -74.5725096,
+              40.3840809
+            ],
+            [
+              -74.5724807,
+              40.3840645
+            ],
+            [
+              -74.5724492,
+              40.3841017
+            ],
+            [
+              -74.5724776,
+              40.3841187
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 74,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5728953,
+              40.3844047
+            ],
+            [
+              -74.5728375,
+              40.384365
+            ],
+            [
+              -74.5728135,
+              40.3843854
+            ],
+            [
+              -74.5728713,
+              40.3844252
+            ],
+            [
+              -74.5728953,
+              40.3844047
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 75,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5728713,
+              40.3844252
+            ],
+            [
+              -74.5728135,
+              40.3843854
+            ],
+            [
+              -74.5727895,
+              40.3844058
+            ],
+            [
+              -74.5728474,
+              40.3844456
+            ],
+            [
+              -74.5728713,
+              40.3844252
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 76,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5728474,
+              40.3844456
+            ],
+            [
+              -74.5727895,
+              40.3844058
+            ],
+            [
+              -74.5727655,
+              40.3844262
+            ],
+            [
+              -74.5728234,
+              40.3844661
+            ],
+            [
+              -74.5728474,
+              40.3844456
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 77,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5728234,
+              40.3844661
+            ],
+            [
+              -74.5727655,
+              40.3844262
+            ],
+            [
+              -74.5727415,
+              40.3844467
+            ],
+            [
+              -74.5727995,
+              40.3844865
+            ],
+            [
+              -74.5728234,
+              40.3844661
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 78,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5727995,
+              40.3844865
+            ],
+            [
+              -74.5727415,
+              40.3844467
+            ],
+            [
+              -74.5727175,
+              40.3844671
+            ],
+            [
+              -74.5727755,
+              40.3845069
+            ],
+            [
+              -74.5727995,
+              40.3844865
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 79,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5727755,
+              40.3845069
+            ],
+            [
+              -74.5727175,
+              40.3844671
+            ],
+            [
+              -74.5726935,
+              40.3844875
+            ],
+            [
+              -74.5727515,
+              40.3845274
+            ],
+            [
+              -74.5727755,
+              40.3845069
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 80,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5727515,
+              40.3845274
+            ],
+            [
+              -74.5726935,
+              40.3844875
+            ],
+            [
+              -74.5726695,
+              40.3845079
+            ],
+            [
+              -74.5727276,
+              40.3845478
+            ],
+            [
+              -74.5727515,
+              40.3845274
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 81,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5727276,
+              40.3845478
+            ],
+            [
+              -74.5726695,
+              40.3845079
+            ],
+            [
+              -74.5726455,
+              40.3845283
+            ],
+            [
+              -74.5727036,
+              40.3845683
+            ],
+            [
+              -74.5727276,
+              40.3845478
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 82,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5727036,
+              40.3845683
+            ],
+            [
+              -74.5726455,
+              40.3845283
+            ],
+            [
+              -74.5726215,
+              40.3845487
+            ],
+            [
+              -74.5726796,
+              40.3845887
+            ],
+            [
+              -74.5727036,
+              40.3845683
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 83,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5726796,
+              40.3845887
+            ],
+            [
+              -74.5726215,
+              40.3845487
+            ],
+            [
+              -74.5725975,
+              40.3845692
+            ],
+            [
+              -74.5726556,
+              40.3846091
+            ],
+            [
+              -74.5726796,
+              40.3845887
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 84,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5726556,
+              40.3846091
+            ],
+            [
+              -74.5725975,
+              40.3845692
+            ],
+            [
+              -74.5725735,
+              40.3845896
+            ],
+            [
+              -74.5726317,
+              40.3846296
+            ],
+            [
+              -74.5726556,
+              40.3846091
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 85,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5726317,
+              40.3846296
+            ],
+            [
+              -74.5725735,
+              40.3845896
+            ],
+            [
+              -74.5725495,
+              40.38461
+            ],
+            [
+              -74.5726077,
+              40.38465
+            ],
+            [
+              -74.5726317,
+              40.3846296
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 86,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5726077,
+              40.38465
+            ],
+            [
+              -74.5725495,
+              40.38461
+            ],
+            [
+              -74.5725255,
+              40.3846304
+            ],
+            [
+              -74.5725838,
+              40.3846705
+            ],
+            [
+              -74.5726077,
+              40.38465
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 87,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5725838,
+              40.3846705
+            ],
+            [
+              -74.5725255,
+              40.3846304
+            ],
+            [
+              -74.5725015,
+              40.3846508
+            ],
+            [
+              -74.5725598,
+              40.3846909
+            ],
+            [
+              -74.5725838,
+              40.3846705
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 88,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5725598,
+              40.3846909
+            ],
+            [
+              -74.5725015,
+              40.3846508
+            ],
+            [
+              -74.5724775,
+              40.3846712
+            ],
+            [
+              -74.5725358,
+              40.3847113
+            ],
+            [
+              -74.5725598,
+              40.3846909
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 89,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5725358,
+              40.3847113
+            ],
+            [
+              -74.5724775,
+              40.3846712
+            ],
+            [
+              -74.5724535,
+              40.3846917
+            ],
+            [
+              -74.5725119,
+              40.3847317
+            ],
+            [
+              -74.5725358,
+              40.3847113
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 90,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5725119,
+              40.3847317
+            ],
+            [
+              -74.5724535,
+              40.3846917
+            ],
+            [
+              -74.5724295,
+              40.3847121
+            ],
+            [
+              -74.5724879,
+              40.3847522
+            ],
+            [
+              -74.5725119,
+              40.3847317
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 91,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5724879,
+              40.3847522
+            ],
+            [
+              -74.5724295,
+              40.3847121
+            ],
+            [
+              -74.5724055,
+              40.3847325
+            ],
+            [
+              -74.5724639,
+              40.3847726
+            ],
+            [
+              -74.5724879,
+              40.3847522
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 92,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5724639,
+              40.3847726
+            ],
+            [
+              -74.5724055,
+              40.3847325
+            ],
+            [
+              -74.5723815,
+              40.3847529
+            ],
+            [
+              -74.5724399,
+              40.3847931
+            ],
+            [
+              -74.5724639,
+              40.3847726
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 93,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5724399,
+              40.3847931
+            ],
+            [
+              -74.5723815,
+              40.3847529
+            ],
+            [
+              -74.5723575,
+              40.3847733
+            ],
+            [
+              -74.572416,
+              40.3848135
+            ],
+            [
+              -74.5724399,
+              40.3847931
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 94,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.572416,
+              40.3848135
+            ],
+            [
+              -74.5723575,
+              40.3847733
+            ],
+            [
+              -74.5723335,
+              40.3847937
+            ],
+            [
+              -74.572392,
+              40.3848339
+            ],
+            [
+              -74.572416,
+              40.3848135
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 95,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.572392,
+              40.3848339
+            ],
+            [
+              -74.5723335,
+              40.3847937
+            ],
+            [
+              -74.5723095,
+              40.3848141
+            ],
+            [
+              -74.5723681,
+              40.3848544
+            ],
+            [
+              -74.572392,
+              40.3848339
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 96,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5723681,
+              40.3848544
+            ],
+            [
+              -74.5723095,
+              40.3848141
+            ],
+            [
+              -74.5722855,
+              40.3848346
+            ],
+            [
+              -74.5723441,
+              40.3848748
+            ],
+            [
+              -74.5723681,
+              40.3848544
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 97,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 21.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5723441,
+              40.3848748
+            ],
+            [
+              -74.5722855,
+              40.3848346
+            ],
+            [
+              -74.5722615,
+              40.384855
+            ],
+            [
+              -74.5723201,
+              40.3848953
+            ],
+            [
+              -74.5723441,
+              40.3848748
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 98,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 20.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5725178,
+              40.3842404
+            ],
+            [
+              -74.5724704,
+              40.3842042
+            ],
+            [
+              -74.572445,
+              40.3842237
+            ],
+            [
+              -74.5724929,
+              40.3842602
+            ],
+            [
+              -74.5725178,
+              40.3842404
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 99,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 20.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5724929,
+              40.3842602
+            ],
+            [
+              -74.572445,
+              40.3842237
+            ],
+            [
+              -74.5724197,
+              40.3842431
+            ],
+            [
+              -74.5724679,
+              40.3842799
+            ],
+            [
+              -74.5724929,
+              40.3842602
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 100,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 20.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5724679,
+              40.3842799
+            ],
+            [
+              -74.5724197,
+              40.3842431
+            ],
+            [
+              -74.5723943,
+              40.3842625
+            ],
+            [
+              -74.572443,
+              40.3842997
+            ],
+            [
+              -74.5724679,
+              40.3842799
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 101,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 20.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.572443,
+              40.3842997
+            ],
+            [
+              -74.5723943,
+              40.3842625
+            ],
+            [
+              -74.572369,
+              40.384282
+            ],
+            [
+              -74.5724181,
+              40.3843195
+            ],
+            [
+              -74.572443,
+              40.3842997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 102,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 20.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5724181,
+              40.3843195
+            ],
+            [
+              -74.572369,
+              40.384282
+            ],
+            [
+              -74.5723436,
+              40.3843014
+            ],
+            [
+              -74.5723932,
+              40.3843392
+            ],
+            [
+              -74.5724181,
+              40.3843195
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 103,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 20.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5723932,
+              40.3843392
+            ],
+            [
+              -74.5723436,
+              40.3843014
+            ],
+            [
+              -74.5723182,
+              40.3843208
+            ],
+            [
+              -74.5723683,
+              40.384359
+            ],
+            [
+              -74.5723932,
+              40.3843392
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 104,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 20.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5723683,
+              40.384359
+            ],
+            [
+              -74.5723182,
+              40.3843208
+            ],
+            [
+              -74.5722929,
+              40.3843402
+            ],
+            [
+              -74.5723433,
+              40.3843788
+            ],
+            [
+              -74.5723683,
+              40.384359
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 105,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 20.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5723433,
+              40.3843788
+            ],
+            [
+              -74.5722929,
+              40.3843402
+            ],
+            [
+              -74.5722675,
+              40.3843597
+            ],
+            [
+              -74.5723184,
+              40.3843985
+            ],
+            [
+              -74.5723433,
+              40.3843788
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 106,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 20.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5723184,
+              40.3843985
+            ],
+            [
+              -74.5722675,
+              40.3843597
+            ],
+            [
+              -74.5722421,
+              40.3843791
+            ],
+            [
+              -74.5722935,
+              40.3844183
+            ],
+            [
+              -74.5723184,
+              40.3843985
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 107,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 20.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5722935,
+              40.3844183
+            ],
+            [
+              -74.5722421,
+              40.3843791
+            ],
+            [
+              -74.5722168,
+              40.3843985
+            ],
+            [
+              -74.5722686,
+              40.3844381
+            ],
+            [
+              -74.5722935,
+              40.3844183
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 108,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 20.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5722686,
+              40.3844381
+            ],
+            [
+              -74.5722168,
+              40.3843985
+            ],
+            [
+              -74.5721914,
+              40.3844179
+            ],
+            [
+              -74.5722437,
+              40.3844578
+            ],
+            [
+              -74.5722686,
+              40.3844381
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 109,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 20.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5722437,
+              40.3844578
+            ],
+            [
+              -74.5721914,
+              40.3844179
+            ],
+            [
+              -74.5721661,
+              40.3844374
+            ],
+            [
+              -74.5722187,
+              40.3844776
+            ],
+            [
+              -74.5722437,
+              40.3844578
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 110,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 20.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5722187,
+              40.3844776
+            ],
+            [
+              -74.5721661,
+              40.3844374
+            ],
+            [
+              -74.5721407,
+              40.3844568
+            ],
+            [
+              -74.5721938,
+              40.3844973
+            ],
+            [
+              -74.5722187,
+              40.3844776
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 111,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 20.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5721938,
+              40.3844973
+            ],
+            [
+              -74.5721407,
+              40.3844568
+            ],
+            [
+              -74.5721153,
+              40.3844762
+            ],
+            [
+              -74.5721689,
+              40.3845171
+            ],
+            [
+              -74.5721938,
+              40.3844973
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 112,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 20.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5721689,
+              40.3845171
+            ],
+            [
+              -74.5721153,
+              40.3844762
+            ],
+            [
+              -74.5720899,
+              40.3844957
+            ],
+            [
+              -74.572144,
+              40.3845369
+            ],
+            [
+              -74.5721689,
+              40.3845171
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 113,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 20.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.572144,
+              40.3845369
+            ],
+            [
+              -74.5720899,
+              40.3844957
+            ],
+            [
+              -74.5720646,
+              40.3845151
+            ],
+            [
+              -74.572119,
+              40.3845567
+            ],
+            [
+              -74.572144,
+              40.3845369
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 114,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 20.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.572119,
+              40.3845567
+            ],
+            [
+              -74.5720646,
+              40.3845151
+            ],
+            [
+              -74.5720392,
+              40.3845345
+            ],
+            [
+              -74.5720941,
+              40.3845764
+            ],
+            [
+              -74.572119,
+              40.3845567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 115,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 20.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5720941,
+              40.3845764
+            ],
+            [
+              -74.5720392,
+              40.3845345
+            ],
+            [
+              -74.5720139,
+              40.3845539
+            ],
+            [
+              -74.5720692,
+              40.3845962
+            ],
+            [
+              -74.5720941,
+              40.3845764
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 116,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 20.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5720692,
+              40.3845962
+            ],
+            [
+              -74.5720139,
+              40.3845539
+            ],
+            [
+              -74.5719885,
+              40.3845733
+            ],
+            [
+              -74.5720443,
+              40.3846159
+            ],
+            [
+              -74.5720692,
+              40.3845962
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 117,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 20.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5720443,
+              40.3846159
+            ],
+            [
+              -74.5719885,
+              40.3845733
+            ],
+            [
+              -74.5719631,
+              40.3845928
+            ],
+            [
+              -74.5720194,
+              40.3846357
+            ],
+            [
+              -74.5720443,
+              40.3846159
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 118,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 20.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5720194,
+              40.3846357
+            ],
+            [
+              -74.5719631,
+              40.3845928
+            ],
+            [
+              -74.5719378,
+              40.3846122
+            ],
+            [
+              -74.5719944,
+              40.3846555
+            ],
+            [
+              -74.5720194,
+              40.3846357
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 119,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 20.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5719944,
+              40.3846555
+            ],
+            [
+              -74.5719378,
+              40.3846122
+            ],
+            [
+              -74.5719124,
+              40.3846316
+            ],
+            [
+              -74.5719695,
+              40.3846752
+            ],
+            [
+              -74.5719944,
+              40.3846555
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 120,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5725545,
+              40.3847527
+            ],
+            [
+              -74.5724999,
+              40.3847257
+            ],
+            [
+              -74.5724802,
+              40.3847487
+            ],
+            [
+              -74.5725342,
+              40.3847754
+            ],
+            [
+              -74.5725545,
+              40.3847527
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 121,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5725342,
+              40.3847754
+            ],
+            [
+              -74.5724802,
+              40.3847487
+            ],
+            [
+              -74.5724605,
+              40.3847716
+            ],
+            [
+              -74.5725139,
+              40.3847981
+            ],
+            [
+              -74.5725342,
+              40.3847754
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 122,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5725139,
+              40.3847981
+            ],
+            [
+              -74.5724605,
+              40.3847716
+            ],
+            [
+              -74.5724408,
+              40.3847946
+            ],
+            [
+              -74.5724936,
+              40.3848208
+            ],
+            [
+              -74.5725139,
+              40.3847981
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 123,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5724936,
+              40.3848208
+            ],
+            [
+              -74.5724408,
+              40.3847946
+            ],
+            [
+              -74.5724211,
+              40.3848175
+            ],
+            [
+              -74.5724734,
+              40.3848434
+            ],
+            [
+              -74.5724936,
+              40.3848208
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 124,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5724734,
+              40.3848434
+            ],
+            [
+              -74.5724211,
+              40.3848175
+            ],
+            [
+              -74.5724014,
+              40.3848405
+            ],
+            [
+              -74.5724531,
+              40.3848661
+            ],
+            [
+              -74.5724734,
+              40.3848434
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 125,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5724531,
+              40.3848661
+            ],
+            [
+              -74.5724014,
+              40.3848405
+            ],
+            [
+              -74.5723818,
+              40.3848635
+            ],
+            [
+              -74.5724328,
+              40.3848887
+            ],
+            [
+              -74.5724531,
+              40.3848661
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 126,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 15.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5723957,
+              40.384052
+            ],
+            [
+              -74.5723786,
+              40.3840033
+            ],
+            [
+              -74.5723439,
+              40.3840104
+            ],
+            [
+              -74.5723609,
+              40.3840586
+            ],
+            [
+              -74.5723957,
+              40.384052
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 127,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 15.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5723609,
+              40.3840586
+            ],
+            [
+              -74.5723439,
+              40.3840104
+            ],
+            [
+              -74.5723092,
+              40.3840175
+            ],
+            [
+              -74.572326,
+              40.3840653
+            ],
+            [
+              -74.5723609,
+              40.3840586
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 128,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 15.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.572326,
+              40.3840653
+            ],
+            [
+              -74.5723092,
+              40.3840175
+            ],
+            [
+              -74.5722746,
+              40.3840246
+            ],
+            [
+              -74.5722912,
+              40.3840719
+            ],
+            [
+              -74.572326,
+              40.3840653
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 129,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 15.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5722912,
+              40.3840719
+            ],
+            [
+              -74.5722746,
+              40.3840246
+            ],
+            [
+              -74.5722399,
+              40.3840318
+            ],
+            [
+              -74.5722563,
+              40.3840785
+            ],
+            [
+              -74.5722912,
+              40.3840719
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 130,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 15.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5722563,
+              40.3840785
+            ],
+            [
+              -74.5722399,
+              40.3840318
+            ],
+            [
+              -74.5722053,
+              40.3840389
+            ],
+            [
+              -74.5722215,
+              40.3840852
+            ],
+            [
+              -74.5722563,
+              40.3840785
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 131,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 15.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5722215,
+              40.3840852
+            ],
+            [
+              -74.5722053,
+              40.3840389
+            ],
+            [
+              -74.5721706,
+              40.384046
+            ],
+            [
+              -74.5721867,
+              40.3840918
+            ],
+            [
+              -74.5722215,
+              40.3840852
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 132,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 15.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5718034,
+              40.3841648
+            ],
+            [
+              -74.5717892,
+              40.3841244
+            ],
+            [
+              -74.5717546,
+              40.3841315
+            ],
+            [
+              -74.5717686,
+              40.3841715
+            ],
+            [
+              -74.5718034,
+              40.3841648
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 133,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 15.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5717686,
+              40.3841715
+            ],
+            [
+              -74.5717546,
+              40.3841315
+            ],
+            [
+              -74.5717199,
+              40.3841387
+            ],
+            [
+              -74.5717338,
+              40.3841781
+            ],
+            [
+              -74.5717686,
+              40.3841715
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 134,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 15.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5717338,
+              40.3841781
+            ],
+            [
+              -74.5717199,
+              40.3841387
+            ],
+            [
+              -74.5716852,
+              40.3841458
+            ],
+            [
+              -74.5716989,
+              40.3841848
+            ],
+            [
+              -74.5717338,
+              40.3841781
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 135,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 15.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5716989,
+              40.3841848
+            ],
+            [
+              -74.5716852,
+              40.3841458
+            ],
+            [
+              -74.5716506,
+              40.3841529
+            ],
+            [
+              -74.5716641,
+              40.3841914
+            ],
+            [
+              -74.5716989,
+              40.3841848
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 136,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 15.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5716641,
+              40.3841914
+            ],
+            [
+              -74.5716506,
+              40.3841529
+            ],
+            [
+              -74.5716159,
+              40.38416
+            ],
+            [
+              -74.5716292,
+              40.3841981
+            ],
+            [
+              -74.5716641,
+              40.3841914
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 137,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 15.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5716292,
+              40.3841981
+            ],
+            [
+              -74.5716159,
+              40.38416
+            ],
+            [
+              -74.5715812,
+              40.3841671
+            ],
+            [
+              -74.5715944,
+              40.3842047
+            ],
+            [
+              -74.5716292,
+              40.3841981
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 138,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 15.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5715944,
+              40.3842047
+            ],
+            [
+              -74.5715812,
+              40.3841671
+            ],
+            [
+              -74.5715465,
+              40.3841743
+            ],
+            [
+              -74.5715596,
+              40.3842113
+            ],
+            [
+              -74.5715944,
+              40.3842047
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 139,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 15.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5715596,
+              40.3842113
+            ],
+            [
+              -74.5715465,
+              40.3841743
+            ],
+            [
+              -74.5715119,
+              40.3841814
+            ],
+            [
+              -74.5715247,
+              40.384218
+            ],
+            [
+              -74.5715596,
+              40.3842113
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 140,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 15.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5715247,
+              40.384218
+            ],
+            [
+              -74.5715119,
+              40.3841814
+            ],
+            [
+              -74.5714772,
+              40.3841885
+            ],
+            [
+              -74.5714899,
+              40.3842246
+            ],
+            [
+              -74.5715247,
+              40.384218
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 141,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 15.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5714899,
+              40.3842246
+            ],
+            [
+              -74.5714772,
+              40.3841885
+            ],
+            [
+              -74.5714425,
+              40.3841957
+            ],
+            [
+              -74.5714551,
+              40.3842312
+            ],
+            [
+              -74.5714899,
+              40.3842246
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 142,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 15.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5714551,
+              40.3842312
+            ],
+            [
+              -74.5714425,
+              40.3841957
+            ],
+            [
+              -74.5714079,
+              40.3842028
+            ],
+            [
+              -74.5714202,
+              40.3842379
+            ],
+            [
+              -74.5714551,
+              40.3842312
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 143,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 15.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5714202,
+              40.3842379
+            ],
+            [
+              -74.5714079,
+              40.3842028
+            ],
+            [
+              -74.5713732,
+              40.3842099
+            ],
+            [
+              -74.5713854,
+              40.3842445
+            ],
+            [
+              -74.5714202,
+              40.3842379
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 144,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 15.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5713854,
+              40.3842445
+            ],
+            [
+              -74.5713732,
+              40.3842099
+            ],
+            [
+              -74.5713385,
+              40.384217
+            ],
+            [
+              -74.5713505,
+              40.3842512
+            ],
+            [
+              -74.5713854,
+              40.3842445
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 145,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 20.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5726452,
+              40.3843512
+            ],
+            [
+              -74.5725795,
+              40.3843222
+            ],
+            [
+              -74.5725609,
+              40.3843457
+            ],
+            [
+              -74.5726264,
+              40.3843745
+            ],
+            [
+              -74.5726452,
+              40.3843512
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 146,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 9.5,
+        "length_ft": 20.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.572732,
+              40.3842953
+            ],
+            [
+              -74.5727827,
+              40.3842564
+            ],
+            [
+              -74.5727586,
+              40.384238
+            ],
+            [
+              -74.5727078,
+              40.3842769
+            ],
+            [
+              -74.572732,
+              40.3842953
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 147,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5727599,
+              40.3845687
+            ],
+            [
+              -74.5726973,
+              40.3845443
+            ],
+            [
+              -74.572681,
+              40.3845688
+            ],
+            [
+              -74.5727407,
+              40.384592
+            ],
+            [
+              -74.5727599,
+              40.3845687
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 148,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5727407,
+              40.384592
+            ],
+            [
+              -74.572681,
+              40.3845688
+            ],
+            [
+              -74.5726647,
+              40.3845932
+            ],
+            [
+              -74.5727215,
+              40.3846154
+            ],
+            [
+              -74.5727407,
+              40.384592
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 149,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5727215,
+              40.3846154
+            ],
+            [
+              -74.5726647,
+              40.3845932
+            ],
+            [
+              -74.5726484,
+              40.3846177
+            ],
+            [
+              -74.5727024,
+              40.3846387
+            ],
+            [
+              -74.5727215,
+              40.3846154
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 150,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5727024,
+              40.3846387
+            ],
+            [
+              -74.5726484,
+              40.3846177
+            ],
+            [
+              -74.5726322,
+              40.3846422
+            ],
+            [
+              -74.5726832,
+              40.3846621
+            ],
+            [
+              -74.5727024,
+              40.3846387
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 151,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5726832,
+              40.3846621
+            ],
+            [
+              -74.5726322,
+              40.3846422
+            ],
+            [
+              -74.5726159,
+              40.3846666
+            ],
+            [
+              -74.5726641,
+              40.3846854
+            ],
+            [
+              -74.5726832,
+              40.3846621
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 152,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5726641,
+              40.3846854
+            ],
+            [
+              -74.5726159,
+              40.3846666
+            ],
+            [
+              -74.5725996,
+              40.3846911
+            ],
+            [
+              -74.5726449,
+              40.3847087
+            ],
+            [
+              -74.5726641,
+              40.3846854
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 153,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5726449,
+              40.3847087
+            ],
+            [
+              -74.5725996,
+              40.3846911
+            ],
+            [
+              -74.5725834,
+              40.3847156
+            ],
+            [
+              -74.5726257,
+              40.3847321
+            ],
+            [
+              -74.5726449,
+              40.3847087
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 154,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5726257,
+              40.3847321
+            ],
+            [
+              -74.5725834,
+              40.3847156
+            ],
+            [
+              -74.5725671,
+              40.3847401
+            ],
+            [
+              -74.5726066,
+              40.3847554
+            ],
+            [
+              -74.5726257,
+              40.3847321
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 155,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 18.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5726066,
+              40.3847554
+            ],
+            [
+              -74.5725671,
+              40.3847401
+            ],
+            [
+              -74.5725508,
+              40.3847645
+            ],
+            [
+              -74.5725874,
+              40.3847788
+            ],
+            [
+              -74.5726066,
+              40.3847554
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 156,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 15.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5725237,
+              40.3841132
+            ],
+            [
+              -74.5725714,
+              40.3840895
+            ],
+            [
+              -74.5725498,
+              40.3840675
+            ],
+            [
+              -74.5725022,
+              40.3840912
+            ],
+            [
+              -74.5725237,
+              40.3841132
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 157,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 15.9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5725022,
+              40.3840912
+            ],
+            [
+              -74.5725498,
+              40.3840675
+            ],
+            [
+              -74.5725282,
+              40.3840455
+            ],
+            [
+              -74.5724807,
+              40.3840691
+            ],
+            [
+              -74.5725022,
+              40.3840912
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 158,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 16.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5725629,
+              40.3847236
+            ],
+            [
+              -74.572524,
+              40.3847065
+            ],
+            [
+              -74.5725053,
+              40.3847299
+            ],
+            [
+              -74.5725424,
+              40.3847463
+            ],
+            [
+              -74.5725629,
+              40.3847236
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 159,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5724903,
+              40.3850381
+            ],
+            [
+              -74.5724396,
+              40.3850032
+            ],
+            [
+              -74.5724156,
+              40.3850236
+            ],
+            [
+              -74.5724663,
+              40.3850585
+            ],
+            [
+              -74.5724903,
+              40.3850381
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 160,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 19.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5724663,
+              40.3850585
+            ],
+            [
+              -74.5724156,
+              40.3850236
+            ],
+            [
+              -74.5723916,
+              40.3850441
+            ],
+            [
+              -74.5724423,
+              40.3850789
+            ],
+            [
+              -74.5724663,
+              40.3850585
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 161,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 12.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.572504,
+              40.3849742
+            ],
+            [
+              -74.5724656,
+              40.3849593
+            ],
+            [
+              -74.5724493,
+              40.3849838
+            ],
+            [
+              -74.5724877,
+              40.3849987
+            ],
+            [
+              -74.572504,
+              40.3849742
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 162,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 12.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5724877,
+              40.3849987
+            ],
+            [
+              -74.5724493,
+              40.3849838
+            ],
+            [
+              -74.572433,
+              40.3850082
+            ],
+            [
+              -74.5724715,
+              40.3850232
+            ],
+            [
+              -74.5724877,
+              40.3849987
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 163,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 16.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5724307,
+              40.3850739
+            ],
+            [
+              -74.5723886,
+              40.3850417
+            ],
+            [
+              -74.5723627,
+              40.3850607
+            ],
+            [
+              -74.5724054,
+              40.3850933
+            ],
+            [
+              -74.5724307,
+              40.3850739
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 164,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 22.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5729734,
+              40.3844747
+            ],
+            [
+              -74.572927,
+              40.3844258
+            ],
+            [
+              -74.5728979,
+              40.384442
+            ],
+            [
+              -74.5729444,
+              40.3844908
+            ],
+            [
+              -74.5729734,
+              40.3844747
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 165,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 22.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5729444,
+              40.3844908
+            ],
+            [
+              -74.5728979,
+              40.384442
+            ],
+            [
+              -74.5728689,
+              40.3844582
+            ],
+            [
+              -74.5729154,
+              40.384507
+            ],
+            [
+              -74.5729444,
+              40.3844908
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 166,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 22.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5729154,
+              40.384507
+            ],
+            [
+              -74.5728689,
+              40.3844582
+            ],
+            [
+              -74.5728399,
+              40.3844743
+            ],
+            [
+              -74.5728864,
+              40.3845231
+            ],
+            [
+              -74.5729154,
+              40.384507
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 167,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 22.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5728864,
+              40.3845231
+            ],
+            [
+              -74.5728399,
+              40.3844743
+            ],
+            [
+              -74.5728109,
+              40.3844905
+            ],
+            [
+              -74.5728573,
+              40.3845393
+            ],
+            [
+              -74.5728864,
+              40.3845231
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 168,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 22.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5728573,
+              40.3845393
+            ],
+            [
+              -74.5728109,
+              40.3844905
+            ],
+            [
+              -74.5727818,
+              40.3845066
+            ],
+            [
+              -74.5728283,
+              40.3845554
+            ],
+            [
+              -74.5728573,
+              40.3845393
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 169,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 22.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5728283,
+              40.3845554
+            ],
+            [
+              -74.5727818,
+              40.3845066
+            ],
+            [
+              -74.5727528,
+              40.3845228
+            ],
+            [
+              -74.5727993,
+              40.3845716
+            ],
+            [
+              -74.5728283,
+              40.3845554
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 170,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 10.0,
+        "length_ft": 22.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5727993,
+              40.3845716
+            ],
+            [
+              -74.5727528,
+              40.3845228
+            ],
+            [
+              -74.5727238,
+              40.3845389
+            ],
+            [
+              -74.5727703,
+              40.3845878
+            ],
+            [
+              -74.5727993,
+              40.3845716
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 171,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 9.0,
+        "length_ft": 21.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5719351,
+              40.3844756
+            ],
+            [
+              -74.5718799,
+              40.3844376
+            ],
+            [
+              -74.5718589,
+              40.3844564
+            ],
+            [
+              -74.5719135,
+              40.3844939
+            ],
+            [
+              -74.5719351,
+              40.3844756
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 172,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 9.0,
+        "length_ft": 21.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5719135,
+              40.3844939
+            ],
+            [
+              -74.5718589,
+              40.3844564
+            ],
+            [
+              -74.571838,
+              40.3844753
+            ],
+            [
+              -74.5718919,
+              40.3845123
+            ],
+            [
+              -74.5719135,
+              40.3844939
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 173,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 9.0,
+        "length_ft": 21.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5718919,
+              40.3845123
+            ],
+            [
+              -74.571838,
+              40.3844753
+            ],
+            [
+              -74.5718171,
+              40.3844941
+            ],
+            [
+              -74.5718703,
+              40.3845307
+            ],
+            [
+              -74.5718919,
+              40.3845123
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 174,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 9.0,
+        "length_ft": 21.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5718703,
+              40.3845307
+            ],
+            [
+              -74.5718171,
+              40.3844941
+            ],
+            [
+              -74.5717962,
+              40.384513
+            ],
+            [
+              -74.5718487,
+              40.3845491
+            ],
+            [
+              -74.5718703,
+              40.3845307
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 175,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 9.0,
+        "length_ft": 21.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5718487,
+              40.3845491
+            ],
+            [
+              -74.5717962,
+              40.384513
+            ],
+            [
+              -74.5717753,
+              40.3845318
+            ],
+            [
+              -74.5718271,
+              40.3845675
+            ],
+            [
+              -74.5718487,
+              40.3845491
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 176,
+        "amenity": "parking_space",
+        "source": "NJOGIS Natural Color Imagery 2020",
+        "width_ft": 9.0,
+        "length_ft": 21.7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5718271,
+              40.3845675
+            ],
+            [
+              -74.5717753,
+              40.3845318
+            ],
+            [
+              -74.5717544,
+              40.3845507
+            ],
+            [
+              -74.5718055,
+              40.3845858
+            ],
+            [
+              -74.5718271,
+              40.3845675
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
