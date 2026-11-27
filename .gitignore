@@ -6,6 +6,13 @@ __pycache__/
 .venv/
 dist/
 build/
+# Datasets, checkpoints, packages and scratch output are regenerated. See README.
 data/
 runs/
+out/
+logs/
 *.pt
+*.pth
+*.npz
+*.mlpackage
+!tests/fixtures/*.npz

@@ -66,8 +66,13 @@ def score_polygons(
     detected: list[Polygon],
     truth: list[Polygon],
     iou_min: float = IOU_MIN,
+    pixel_gsd_ft: float | None = None,
 ) -> tuple[Score, list[tuple[int, int]]]:
-    """Return the score and the list of (detection index, truth index) matches."""
+    """Return the score and the list of (detection index, truth index) matches.
+
+    Polygons are WGS84 by default. For polygons in image pixels pass `pixel_gsd_ft`, the feet
+    per pixel, so the mean offset is the centroid distance in feet.
+    """
     pairs: list[tuple[float, int, int]] = []
     for i, det in enumerate(detected):
         for j, gt in enumerate(truth):
@@ -89,7 +94,7 @@ def score_polygons(
         used_det.add(i)
         used_truth.add(j)
         matches.append((i, j))
-        offsets.append(_offset_ft(detected[i], truth[j]))
+        offsets.append(_offset_ft(detected[i], truth[j], pixel_gsd_ft))
     tp = len(matches)
     fp = len(detected) - tp
     fn = len(truth) - tp
@@ -124,9 +129,10 @@ def render_eval(
     truth_px: list[Polygon],
     path: Path,
     iou_min: float = IOU_MIN,
+    gsd_ft: float = 1.0,
 ) -> Score:
     """Draw true positives, false positives, and missed stalls on the imagery."""
-    result, matches = score_polygons(detected_px, truth_px, iou_min=iou_min)
+    result, matches = score_polygons(detected_px, truth_px, iou_min=iou_min, pixel_gsd_ft=gsd_ft)
     matched_det = {i for i, _j in matches}
     matched_truth = {j for _i, j in matches}
     canvas = image_bgr.copy()
@@ -144,12 +150,11 @@ def render_eval(
     return result
 
 
-def _offset_ft(detected: Polygon, truth: Polygon) -> float:
+def _offset_ft(detected: Polygon, truth: Polygon, pixel_gsd_ft: float | None = None) -> float:
     x1, y1 = detected.centroid.x, detected.centroid.y
     x2, y2 = truth.centroid.x, truth.centroid.y
-    if max(abs(x1), abs(x2)) > 180 or max(abs(y1), abs(y2)) > 90:
-        # Pixel space at the native 1 ft grid. Distance is already in feet.
-        return float(np.hypot(x1 - x2, y1 - y2))
+    if pixel_gsd_ft is not None:
+        return float(np.hypot(x1 - x2, y1 - y2)) * pixel_gsd_ft
     _az12, _az21, meters = _GEOD.inv(x1, y1, x2, y2)
     return abs(meters) / _FT
 

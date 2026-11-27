@@ -26,6 +26,9 @@ class RunResult:
     geojson_path: Path
     osc_path: Path
     preview_path: Path
+    image: object = None
+    grid: object = None
+    stalls: tuple = ()
 
 
 def detect_way(
@@ -68,7 +71,7 @@ def run(
     stalls = _detect(image, lot_px, gsd_ft, detector, weights)
     rings = shared_rings(stalls, grid)
     geojson_path, osc_path, preview_path = write_outputs(out_dir, image, lot_px, stalls, rings)
-    return RunResult(len(stalls), geojson_path, osc_path, preview_path)
+    return RunResult(len(stalls), geojson_path, osc_path, preview_path, image, grid, tuple(stalls))
 
 
 def _detect(image, lot_px, gsd_ft: float, detector: str, weights: Path | None):
@@ -80,4 +83,10 @@ def _detect(image, lot_px, gsd_ft: float, detector: str, weights: Path | None):
         from osm_parking_spaces.ml.infer import detect_stalls_ml
 
         return detect_stalls_ml(image, lot_px, weights, gsd_ft=gsd_ft)
-    raise ParkingError(f"Unknown detector {detector!r}. Use classical or ml.")
+    if detector == "hybrid":
+        if weights is None:
+            raise ParkingError("hybrid detector requires --weights")
+        from osm_parking_spaces.ml.infer import detect_stalls_hybrid
+
+        return detect_stalls_hybrid(image, lot_px, weights, gsd_ft=gsd_ft)
+    raise ParkingError(f"Unknown detector {detector!r}. Use classical, ml or hybrid.")
