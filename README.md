@@ -43,7 +43,33 @@ osm-parking-spaces detect --geojson lot.geojson --out-dir out/
 
 `--gsd-ft` defaults to `1`, the native pixel size of this imagery (1 US survey
 foot in EPSG:6527, NAD83(2011) / New Jersey ftUS). Outputs are reprojected to
-WGS84.
+WGS84. Adjacent stalls in a row share divider corners in both the GeoJSON
+and the `.osc` file.
+
+## Ground truth
+
+`tests/ground_truth/way-1329737820.geojson` and
+`tests/ground_truth/way-1329737821.geojson` were labelled by hand from the
+NJOGIS Natural2020 mosaic at native resolution. Each polygon was traced along
+the painted stall dividers and the row ends, including bays with a vehicle in
+them when the row's pitch continues. They are not a copy of the detector
+output. Please audit them. Where the paint is faint, a corner can be off by
+a foot or two.
+
+## Evaluate
+
+```bash
+osm-parking-spaces evaluate \
+  --detected examples/way-1329737820/stalls.geojson \
+  --truth tests/ground_truth/way-1329737820.geojson
+```
+
+Matching is one-to-one at IoU ≥ 0.5. The command prints precision, recall, F1,
+and the mean centroid offset of the matches in feet.
+
+`examples/way-<id>/eval.png` shows the same comparison on the imagery: green
+is a match, red is a detection with no match, orange is a ground-truth stall
+the detector missed.
 
 Each stall way is tagged:
 

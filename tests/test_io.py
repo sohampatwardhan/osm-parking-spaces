@@ -91,6 +91,33 @@ def test_osc_is_create_only_with_negative_ids_and_required_tags():
     assert "changeset" not in xml
 
 
+def test_adjacent_rings_share_one_osc_node():
+    left = [(-74.0, 40.0), (-73.9999, 40.0), (-73.9999, 40.0001), (-74.0, 40.0001)]
+    right = [(-73.9999, 40.0), (-73.9998, 40.0), (-73.9998, 40.0001), (-73.9999, 40.0001)]
+    root = ET.fromstring(to_osc([left, right]))
+    create = root.find("create")
+    assert len(create.findall("node")) == 6
+    refs = [nd.attrib["ref"] for way in create.findall("way") for nd in way.findall("nd")]
+    assert len(refs) == 10  # 4 corners + closing node, twice
+    assert len(set(refs)) == 6
+
+
+def test_evaluate_matches_one_to_one_at_iou():
+    from shapely.geometry import box as square
+
+    from osm_parking_spaces.evaluate import score_polygons
+
+    truth = [square(0, 0, 2, 2), square(10, 10, 12, 12)]
+    detected = [square(0.2, 0.2, 2.2, 2.2), square(5, 5, 6, 6)]
+    result, matches = score_polygons(detected, truth, iou_min=0.5)
+    assert result.true_positives == 1
+    assert result.false_positives == 1
+    assert result.false_negatives == 1
+    assert result.precision == pytest.approx(0.5)
+    assert result.recall == pytest.approx(0.5)
+    assert len(matches) == 1
+
+
 def test_empty_detection_still_writes_three_files(tmp_path: Path):
     image = np.zeros((24, 24, 3), np.uint8)
     write_outputs(tmp_path, image, box(1, 1, 22, 22), [], [])

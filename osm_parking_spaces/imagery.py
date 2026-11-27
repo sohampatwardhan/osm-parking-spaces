@@ -71,6 +71,27 @@ def polygon_to_pixels(polygon: Polygon, grid: Grid) -> Polygon:
     return Polygon(ring(polygon.exterior.coords), holes)
 
 
+def pixel_to_wgs84(col: float, row: float, grid: Grid) -> tuple[float, float]:
+    transformer = Transformer.from_crs(IMAGE_CRS, "EPSG:4326", always_xy=True)
+    lon, lat = transformer.transform(*grid.pixel_to_world(col, row))
+    return round(float(lon), 7), round(float(lat), 7)
+
+
+def shared_rings(stalls, grid: Grid) -> list[list[tuple[float, float]]]:
+    """WGS84 rings. Corners that match in pixel space become the same lon/lat."""
+    cache: dict[tuple[float, float], tuple[float, float]] = {}
+    rings = []
+    for stall in stalls:
+        ring = []
+        for col, row in stall.corners_px:
+            key = (round(float(col), 2), round(float(row), 2))
+            if key not in cache:
+                cache[key] = pixel_to_wgs84(key[0], key[1], grid)
+            ring.append(cache[key])
+        rings.append(ring)
+    return rings
+
+
 def pixels_to_wgs84(polygon: Polygon, grid: Grid) -> Polygon:
     to_wgs84 = Transformer.from_crs(IMAGE_CRS, "EPSG:4326", always_xy=True)
 

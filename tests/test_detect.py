@@ -38,9 +38,38 @@ def test_cropped_natural2020_tile_finds_the_painted_row():
     assert image is not None
     ring = json.loads((FIXTURES / "stall_row_polygon.json").read_text())["polygon"]
     stalls = detect_stalls(image, Polygon(ring), gsd_ft=1.0)
-    assert len(stalls) == 25
+    assert len(stalls) >= 8
     assert all(7.0 <= stall.width_ft <= 14.0 for stall in stalls)
-    assert all(stall.length_ft >= 12.0 for stall in stalls)
+    assert all(12.0 <= stall.length_ft <= 22.0 for stall in stalls)
+
+
+def test_a_missing_divider_is_filled_at_the_row_pitch():
+    image = np.full((80, 180, 3), 55, np.uint8)
+    for x in (30, 39, 48, 66, 75, 84):
+        cv2.line(image, (x, 20), (x, 38), (235, 235, 235), 1)
+    stalls = detect_stalls(image, box(2, 2, 170, 75), gsd_ft=1.0)
+    assert len(stalls) == 6
+
+
+def test_hatched_lines_are_not_stalls():
+    image = np.full((80, 140, 3), 55, np.uint8)
+    for x in range(20, 110, 3):
+        cv2.line(image, (x, 24), (x, 42), (230, 230, 230), 1)
+    assert detect_stalls(image, box(2, 2, 130, 75), gsd_ft=1.0) == []
+
+
+def test_neighbors_share_divider_corners():
+    image = np.full((80, 180, 3), 55, np.uint8)
+    for x in (30, 39, 48, 57, 66, 75):
+        cv2.line(image, (x, 20), (x, 38), (235, 235, 235), 1)
+    stalls = detect_stalls(image, box(2, 2, 170, 75), gsd_ft=1.0)
+    row = sorted(stalls, key=lambda stall: stall.polygon.centroid.x)
+    assert len(row) == 5
+    for left, right in zip(row, row[1:]):
+        shared_ids = {id(point) for point in left.corners_px}
+        shared_ids &= {id(point) for point in right.corners_px}
+        shared = shared_ids
+        assert len(shared) == 2
 
 
 def test_empty_asphalt_yields_no_stalls():

@@ -13,9 +13,9 @@ from osm_parking_spaces.imagery import (
     WMS_LAYER,
     WMS_URL,
     fetch_mosaic,
-    pixels_to_wgs84,
     plan_grid,
     polygon_to_pixels,
+    shared_rings,
 )
 from osm_parking_spaces.osm_api import fetch_way
 
@@ -52,6 +52,6 @@ def run(
     image = fetch_mosaic(grid, url=wms_url, layer=wms_layer)
     lot_px = polygon_to_pixels(lot_wgs84, grid)
     stalls = detect_stalls(image, lot_px, gsd_ft=gsd_ft)
-    wgs84 = [pixels_to_wgs84(stall.polygon, grid) for stall in stalls]
-    geojson_path, osc_path, preview_path = write_outputs(out_dir, image, lot_px, stalls, wgs84)
+    rings = shared_rings(stalls, grid)
+    geojson_path, osc_path, preview_path = write_outputs(out_dir, image, lot_px, stalls, rings)
     return RunResult(len(stalls), geojson_path, osc_path, preview_path)

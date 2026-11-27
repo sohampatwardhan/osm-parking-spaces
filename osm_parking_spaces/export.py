@@ -8,9 +8,8 @@ from pathlib import Path
 
 import cv2
 import numpy as np
-from shapely.geometry import Polygon, mapping
+from shapely.geometry import Polygon
 from shapely.geometry.polygon import orient
-from shapely.ops import transform
 
 from osm_parking_spaces.detect import Stall
 from osm_parking_spaces.errors import ParkingError
@@ -23,44 +22,43 @@ def write_outputs(
     image_bgr: np.ndarray,
     lot_px: Polygon,
     stalls_px: list[Stall],
-    stalls_wgs84: list[Polygon],
+    rings_wgs84: list[list[tuple[float, float]]],
 ) -> tuple[Path, Path, Path]:
     directory.mkdir(parents=True, exist_ok=True)
     geojson_path = directory / "stalls.geojson"
     osc_path = directory / "stalls.osc"
     preview_path = directory / "preview.png"
-    geojson_path.write_text(json.dumps(_geojson(stalls_wgs84, stalls_px), indent=2) + "\n")
-    osc_path.write_text(to_osc(stalls_wgs84))
+    geojson_path.write_text(json.dumps(_geojson(rings_wgs84, stalls_px), indent=2) + "\n")
+    osc_path.write_text(to_osc(rings_wgs84))
     _write_preview(preview_path, image_bgr, lot_px, stalls_px)
     return geojson_path, osc_path, preview_path
 
 
-def to_osc(polygons: list[Polygon], source: str = SOURCE) -> str:
-    """Create-only OsmChange. Ids are negative. There is no modify or delete."""
+def to_osc(stalls, source: str = SOURCE) -> str:
+    """Create-only OsmChange. Ids are negative. Shared corners are one node.
+
+    `stalls` may be shapely polygons or rings of (lon, lat) pairs. Equal
+    coordinates become one node, so adjacent stalls reuse divider corners.
+    """
+    rings = [_orient_ring(_as_ring(item)) for item in stalls]
     root = ET.Element("osmChange", version="0.6", generator="osm-parking-spaces")
     create = ET.SubElement(root, "create")
+    node_ids: dict[tuple[float, float], int] = {}
     node_id = -1
+    for ring in rings:
+        for point in ring:
+            if point not in node_ids:
+                node_ids[point] = node_id
+                lon, lat = point
+                ET.SubElement(create, "node", id=str(node_id), lon=f"{lon:.7f}", lat=f"{lat:.7f}")
+                node_id -= 1
     way_id = -1
-    for polygon in polygons:
-        ring = list(orient(polygon, sign=1.0).exterior.coords)
-        if ring[0] != ring[-1]:
-            ring.append(ring[0])
-        body = ring[:-1]
-        if len(body) < 3:
+    for ring in rings:
+        if len(ring) < 3:
             continue
-        refs: list[int] = []
-        for lon, lat in body:
-            ET.SubElement(
-                create,
-                "node",
-                id=str(node_id),
-                lon=f"{lon:.7f}",
-                lat=f"{lat:.7f}",
-            )
-            refs.append(node_id)
-            node_id -= 1
         way = ET.SubElement(create, "way", id=str(way_id))
         way_id -= 1
+        refs = [node_ids[point] for point in ring]
         for ref in refs:
             ET.SubElement(way, "nd", ref=str(ref))
         ET.SubElement(way, "nd", ref=str(refs[0]))
@@ -71,10 +69,28 @@ def to_osc(polygons: list[Polygon], source: str = SOURCE) -> str:
     return '<?xml version="1.0" encoding="UTF-8"?>\n' + xml + "\n"
 
 
-def _geojson(polygons: list[Polygon], stalls: list[Stall]) -> dict:
+def _as_ring(item) -> list[tuple[float, float]]:
+    if isinstance(item, Polygon):
+        coords = list(orient(item, sign=1.0).exterior.coords)[:-1]
+        return [(round(float(x), 7), round(float(y), 7)) for x, y in coords]
+    return [(round(float(x), 7), round(float(y), 7)) for x, y in item]
+
+
+def _orient_ring(ring: list[tuple[float, float]]) -> list[tuple[float, float]]:
+    if len(ring) < 3:
+        return ring
+    polygon = orient(Polygon(ring), sign=1.0)
+    ordered = []
+    for x, y in list(polygon.exterior.coords)[:-1]:
+        key = (round(float(x), 7), round(float(y), 7))
+        ordered.append(min(ring, key=lambda point: abs(point[0] - key[0]) + abs(point[1] - key[1])))
+    return ordered
+
+
+def _geojson(rings: list[list[tuple[float, float]]], stalls: list[Stall]) -> dict:
     features = []
-    for index, (polygon, stall) in enumerate(zip(polygons, stalls), start=1):
-        rounded = transform(lambda x, y: (round(x, 7), round(y, 7)), orient(polygon, sign=1.0))
+    for index, (ring, stall) in enumerate(zip(rings, stalls), start=1):
+        ring = _orient_ring(_as_ring(ring))
         features.append(
             {
                 "type": "Feature",
@@ -85,7 +101,10 @@ def _geojson(polygons: list[Polygon], stalls: list[Stall]) -> dict:
                     "width_ft": round(stall.width_ft, 1),
                     "length_ft": round(stall.length_ft, 1),
                 },
-                "geometry": mapping(rounded),
+                "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [ring + [ring[0]]],
+                },
             }
         )
     return {"type": "FeatureCollection", "features": features}
