@@ -1,0 +1,25 @@
+{
+  "description": "Pixel ring for stall_row.png (x right, y down). Crop of NJOGIS Natural2020 covering part of OSM way 1329737820, taken from the 1 ft EPSG:6527 mosaic with an 8 ft pad, origin column 40 row 120.",
+  "polygon": [
+    [
+      3,
+      3
+    ],
+    [
+      167,
+      3
+    ],
+    [
+      167,
+      127
+    ],
+    [
+      3,
+      127
+    ],
+    [
+      3,
+      3
+    ]
+  ]
+}

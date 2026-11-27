@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6">
+  <node id="1" lat="40.0" lon="-74.0"/>
+  <node id="2" lat="40.0" lon="-74.001"/>
+  <node id="3" lat="40.001" lon="-74.001"/>
+  <way id="11">
+    <nd ref="1"/>
+    <nd ref="2"/>
+    <nd ref="3"/>
+  </way>
+</osm>

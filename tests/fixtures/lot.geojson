@@ -1,0 +1,14 @@
+{
+  "type": "Feature",
+  "properties": {"amenity": "parking"},
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[
+      [-74.001, 40.0],
+      [-74.000, 40.0],
+      [-74.000, 40.001],
+      [-74.001, 40.001],
+      [-74.001, 40.0]
+    ]]
+  }
+}

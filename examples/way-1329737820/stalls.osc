@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osmChange version="0.6" generator="osm-parking-spaces">
+  <create>
+    <node id="-1" lon="-74.5733654" lat="40.3839488" />
+    <node id="-2" lon="-74.5733325" lat="40.3839740" />
+    <node id="-3" lon="-74.5733884" lat="40.3840167" />
+    <node id="-4" lon="-74.5734213" lat="40.3839915" />
+    <way id="-1">
+      <nd ref="-1" />
+      <nd ref="-2" />
+      <nd ref="-3" />
+      <nd ref="-4" />
+      <nd ref="-1" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-5" lon="-74.5733757" lat="40.3840342" />
+    <node id="-6" lon="-74.5733452" lat="40.3840575" />
+    <node id="-7" lon="-74.5733986" lat="40.3840982" />
+    <node id="-8" lon="-74.5734290" lat="40.3840749" />
+    <way id="-2">
+      <nd ref="-5" />
+      <nd ref="-6" />
+      <nd ref="-7" />
+      <nd ref="-8" />
+      <nd ref="-5" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-9" lon="-74.5729871" lat="40.3838306" />
+    <node id="-10" lon="-74.5729592" lat="40.3838520" />
+    <node id="-11" lon="-74.5730151" lat="40.3838947" />
+    <node id="-12" lon="-74.5730430" lat="40.3838733" />
+    <way id="-3">
+      <nd ref="-9" />
+      <nd ref="-10" />
+      <nd ref="-11" />
+      <nd ref="-12" />
+      <nd ref="-9" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-13" lon="-74.5728856" lat="40.3839083" />
+    <node id="-14" lon="-74.5728577" lat="40.3839297" />
+    <node id="-15" lon="-74.5729136" lat="40.3839724" />
+    <node id="-16" lon="-74.5729415" lat="40.3839510" />
+    <way id="-4">
+      <nd ref="-13" />
+      <nd ref="-14" />
+      <nd ref="-15" />
+      <nd ref="-16" />
+      <nd ref="-13" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-17" lon="-74.5730532" lat="40.3839897" />
+    <node id="-18" lon="-74.5730253" lat="40.3840111" />
+    <node id="-19" lon="-74.5730812" lat="40.3840538" />
+    <node id="-20" lon="-74.5731091" lat="40.3840324" />
+    <way id="-5">
+      <nd ref="-17" />
+      <nd ref="-18" />
+      <nd ref="-19" />
+      <nd ref="-20" />
+      <nd ref="-17" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-21" lon="-74.5730581" lat="40.3837685" />
+    <node id="-22" lon="-74.5730302" lat="40.3837898" />
+    <node id="-23" lon="-74.5730861" lat="40.3838325" />
+    <node id="-24" lon="-74.5731140" lat="40.3838111" />
+    <way id="-6">
+      <nd ref="-21" />
+      <nd ref="-22" />
+      <nd ref="-23" />
+      <nd ref="-24" />
+      <nd ref="-21" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-25" lon="-74.5728485" lat="40.3840070" />
+    <node id="-26" lon="-74.5728091" lat="40.3840086" />
+    <node id="-27" lon="-74.5728133" lat="40.3840690" />
+    <node id="-28" lon="-74.5728527" lat="40.3840673" />
+    <way id="-7">
+      <nd ref="-25" />
+      <nd ref="-26" />
+      <nd ref="-27" />
+      <nd ref="-28" />
+      <nd ref="-25" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-29" lon="-74.5733023" lat="40.3842885" />
+    <node id="-30" lon="-74.5732744" lat="40.3843099" />
+    <node id="-31" lon="-74.5733278" lat="40.3843506" />
+    <node id="-32" lon="-74.5733557" lat="40.3843293" />
+    <way id="-8">
+      <nd ref="-29" />
+      <nd ref="-30" />
+      <nd ref="-31" />
+      <nd ref="-32" />
+      <nd ref="-29" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-33" lon="-74.5731271" lat="40.3842401" />
+    <node id="-34" lon="-74.5730967" lat="40.3842634" />
+    <node id="-35" lon="-74.5731450" lat="40.3843003" />
+    <node id="-36" lon="-74.5731754" lat="40.3842770" />
+    <way id="-9">
+      <nd ref="-33" />
+      <nd ref="-34" />
+      <nd ref="-35" />
+      <nd ref="-36" />
+      <nd ref="-33" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-37" lon="-74.5730349" lat="40.3837410" />
+    <node id="-38" lon="-74.5729991" lat="40.3837425" />
+    <node id="-39" lon="-74.5730033" lat="40.3838028" />
+    <node id="-40" lon="-74.5730391" lat="40.3838013" />
+    <way id="-10">
+      <nd ref="-37" />
+      <nd ref="-38" />
+      <nd ref="-39" />
+      <nd ref="-40" />
+      <nd ref="-37" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-41" lon="-74.5732235" lat="40.3841585" />
+    <node id="-42" lon="-74.5731956" lat="40.3841799" />
+    <node id="-43" lon="-74.5732464" lat="40.3842187" />
+    <node id="-44" lon="-74.5732743" lat="40.3841973" />
+    <way id="-11">
+      <nd ref="-41" />
+      <nd ref="-42" />
+      <nd ref="-43" />
+      <nd ref="-44" />
+      <nd ref="-41" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-45" lon="-74.5731854" lat="40.3840906" />
+    <node id="-46" lon="-74.5731575" lat="40.3841120" />
+    <node id="-47" lon="-74.5732083" lat="40.3841508" />
+    <node id="-48" lon="-74.5732362" lat="40.3841294" />
+    <way id="-12">
+      <nd ref="-45" />
+      <nd ref="-46" />
+      <nd ref="-47" />
+      <nd ref="-48" />
+      <nd ref="-45" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-49" lon="-74.5729592" lat="40.3838520" />
+    <node id="-50" lon="-74.5729338" lat="40.3838714" />
+    <node id="-51" lon="-74.5729897" lat="40.3839141" />
+    <node id="-52" lon="-74.5730151" lat="40.3838947" />
+    <way id="-13">
+      <nd ref="-49" />
+      <nd ref="-50" />
+      <nd ref="-51" />
+      <nd ref="-52" />
+      <nd ref="-49" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-53" lon="-74.5729338" lat="40.3838714" />
+    <node id="-54" lon="-74.5729085" lat="40.3838908" />
+    <node id="-55" lon="-74.5729643" lat="40.3839335" />
+    <node id="-56" lon="-74.5729897" lat="40.3839141" />
+    <way id="-14">
+      <nd ref="-53" />
+      <nd ref="-54" />
+      <nd ref="-55" />
+      <nd ref="-56" />
+      <nd ref="-53" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-57" lon="-74.5735737" lat="40.3840690" />
+    <node id="-58" lon="-74.5735458" lat="40.3840904" />
+    <node id="-59" lon="-74.5735966" lat="40.3841292" />
+    <node id="-60" lon="-74.5736245" lat="40.3841078" />
+    <way id="-15">
+      <nd ref="-57" />
+      <nd ref="-58" />
+      <nd ref="-59" />
+      <nd ref="-60" />
+      <nd ref="-57" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-61" lon="-74.5734494" lat="40.3841681" />
+    <node id="-62" lon="-74.5734241" lat="40.3841875" />
+    <node id="-63" lon="-74.5734800" lat="40.3842302" />
+    <node id="-64" lon="-74.5735053" lat="40.3842108" />
+    <way id="-16">
+      <nd ref="-61" />
+      <nd ref="-62" />
+      <nd ref="-63" />
+      <nd ref="-64" />
+      <nd ref="-61" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-65" lon="-74.5734266" lat="40.3841895" />
+    <node id="-66" lon="-74.5734013" lat="40.3842089" />
+    <node id="-67" lon="-74.5734571" lat="40.3842515" />
+    <node id="-68" lon="-74.5734825" lat="40.3842321" />
+    <way id="-17">
+      <nd ref="-65" />
+      <nd ref="-66" />
+      <nd ref="-67" />
+      <nd ref="-68" />
+      <nd ref="-65" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-69" lon="-74.5732029" lat="40.3838751" />
+    <node id="-70" lon="-74.5731775" lat="40.3838946" />
+    <node id="-71" lon="-74.5732334" lat="40.3839372" />
+    <node id="-72" lon="-74.5732588" lat="40.3839178" />
+    <way id="-18">
+      <nd ref="-69" />
+      <nd ref="-70" />
+      <nd ref="-71" />
+      <nd ref="-72" />
+      <nd ref="-69" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-73" lon="-74.5728844" lat="40.3840056" />
+    <node id="-74" lon="-74.5728485" lat="40.3840070" />
+    <node id="-75" lon="-74.5728527" lat="40.3840673" />
+    <node id="-76" lon="-74.5728886" lat="40.3840659" />
+    <way id="-19">
+      <nd ref="-73" />
+      <nd ref="-74" />
+      <nd ref="-75" />
+      <nd ref="-76" />
+      <nd ref="-73" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-77" lon="-74.5732283" lat="40.3838557" />
+    <node id="-78" lon="-74.5732029" lat="40.3838751" />
+    <node id="-79" lon="-74.5732588" lat="40.3839178" />
+    <node id="-80" lon="-74.5732841" lat="40.3838984" />
+    <way id="-20">
+      <nd ref="-77" />
+      <nd ref="-78" />
+      <nd ref="-79" />
+      <nd ref="-80" />
+      <nd ref="-77" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-81" lon="-74.5733224" lat="40.3840789" />
+    <node id="-82" lon="-74.5732945" lat="40.3841002" />
+    <node id="-83" lon="-74.5733453" lat="40.3841390" />
+    <node id="-84" lon="-74.5733732" lat="40.3841177" />
+    <way id="-21">
+      <nd ref="-81" />
+      <nd ref="-82" />
+      <nd ref="-83" />
+      <nd ref="-84" />
+      <nd ref="-81" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-85" lon="-74.5731775" lat="40.3838946" />
+    <node id="-86" lon="-74.5731522" lat="40.3839140" />
+    <node id="-87" lon="-74.5732081" lat="40.3839567" />
+    <node id="-88" lon="-74.5732334" lat="40.3839372" />
+    <way id="-22">
+      <nd ref="-85" />
+      <nd ref="-86" />
+      <nd ref="-87" />
+      <nd ref="-88" />
+      <nd ref="-85" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-89" lon="-74.5731522" lat="40.3839140" />
+    <node id="-90" lon="-74.5731268" lat="40.3839334" />
+    <node id="-91" lon="-74.5731827" lat="40.3839761" />
+    <node id="-92" lon="-74.5732081" lat="40.3839567" />
+    <way id="-23">
+      <nd ref="-89" />
+      <nd ref="-90" />
+      <nd ref="-91" />
+      <nd ref="-92" />
+      <nd ref="-89" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-93" lon="-74.5731268" lat="40.3839334" />
+    <node id="-94" lon="-74.5731014" lat="40.3839528" />
+    <node id="-95" lon="-74.5731573" lat="40.3839955" />
+    <node id="-96" lon="-74.5731827" lat="40.3839761" />
+    <way id="-24">
+      <nd ref="-93" />
+      <nd ref="-94" />
+      <nd ref="-95" />
+      <nd ref="-96" />
+      <nd ref="-93" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-97" lon="-74.5731014" lat="40.3839528" />
+    <node id="-98" lon="-74.5730761" lat="40.3839723" />
+    <node id="-99" lon="-74.5731320" lat="40.3840149" />
+    <node id="-100" lon="-74.5731573" lat="40.3839955" />
+    <way id="-25">
+      <nd ref="-97" />
+      <nd ref="-98" />
+      <nd ref="-99" />
+      <nd ref="-100" />
+      <nd ref="-97" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-101" lon="-74.5730253" lat="40.3840111" />
+    <node id="-102" lon="-74.5730000" lat="40.3840305" />
+    <node id="-103" lon="-74.5730559" lat="40.3840732" />
+    <node id="-104" lon="-74.5730812" lat="40.3840538" />
+    <way id="-26">
+      <nd ref="-101" />
+      <nd ref="-102" />
+      <nd ref="-103" />
+      <nd ref="-104" />
+      <nd ref="-101" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-105" lon="-74.5730302" lat="40.3837898" />
+    <node id="-106" lon="-74.5730048" lat="40.3838093" />
+    <node id="-107" lon="-74.5730607" lat="40.3838519" />
+    <node id="-108" lon="-74.5730861" lat="40.3838325" />
+    <way id="-27">
+      <nd ref="-105" />
+      <nd ref="-106" />
+      <nd ref="-107" />
+      <nd ref="-108" />
+      <nd ref="-105" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-109" lon="-74.5729993" lat="40.3837452" />
+    <node id="-110" lon="-74.5729634" lat="40.3837467" />
+    <node id="-111" lon="-74.5729676" lat="40.3838070" />
+    <node id="-112" lon="-74.5730035" lat="40.3838055" />
+    <way id="-28">
+      <nd ref="-109" />
+      <nd ref="-110" />
+      <nd ref="-111" />
+      <nd ref="-112" />
+      <nd ref="-109" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-113" lon="-74.5732427" lat="40.3837298" />
+    <node id="-114" lon="-74.5732068" lat="40.3837313" />
+    <node id="-115" lon="-74.5732110" lat="40.3837916" />
+    <node id="-116" lon="-74.5732469" lat="40.3837901" />
+    <way id="-29">
+      <nd ref="-113" />
+      <nd ref="-114" />
+      <nd ref="-115" />
+      <nd ref="-116" />
+      <nd ref="-113" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-117" lon="-74.5732430" lat="40.3837353" />
+    <node id="-118" lon="-74.5732472" lat="40.3837956" />
+    <node id="-119" lon="-74.5732831" lat="40.3837942" />
+    <node id="-120" lon="-74.5732796" lat="40.3837444" />
+    <node id="-121" lon="-74.5732654" lat="40.3837344" />
+    <way id="-30">
+      <nd ref="-117" />
+      <nd ref="-118" />
+      <nd ref="-119" />
+      <nd ref="-120" />
+      <nd ref="-121" />
+      <nd ref="-117" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-122" lon="-74.5730839" lat="40.3841722" />
+    <node id="-123" lon="-74.5730585" lat="40.3841916" />
+    <node id="-124" lon="-74.5731119" lat="40.3842324" />
+    <node id="-125" lon="-74.5731373" lat="40.3842129" />
+    <way id="-31">
+      <nd ref="-122" />
+      <nd ref="-123" />
+      <nd ref="-124" />
+      <nd ref="-125" />
+      <nd ref="-122" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-126" lon="-74.5733452" lat="40.3840575" />
+    <node id="-127" lon="-74.5733199" lat="40.3840769" />
+    <node id="-128" lon="-74.5733732" lat="40.3841177" />
+    <node id="-129" lon="-74.5733986" lat="40.3840982" />
+    <way id="-32">
+      <nd ref="-126" />
+      <nd ref="-127" />
+      <nd ref="-128" />
+      <nd ref="-129" />
+      <nd ref="-126" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-130" lon="-74.5734013" lat="40.3842089" />
+    <node id="-131" lon="-74.5733759" lat="40.3842283" />
+    <node id="-132" lon="-74.5734292" lat="40.3842690" />
+    <node id="-133" lon="-74.5734546" lat="40.3842496" />
+    <way id="-33">
+      <nd ref="-130" />
+      <nd ref="-131" />
+      <nd ref="-132" />
+      <nd ref="-133" />
+      <nd ref="-130" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-134" lon="-74.5732538" lat="40.3840304" />
+    <node id="-135" lon="-74.5732285" lat="40.3840498" />
+    <node id="-136" lon="-74.5732818" lat="40.3840905" />
+    <node id="-137" lon="-74.5733072" lat="40.3840711" />
+    <way id="-34">
+      <nd ref="-134" />
+      <nd ref="-135" />
+      <nd ref="-136" />
+      <nd ref="-137" />
+      <nd ref="-134" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-138" lon="-74.5732792" lat="40.3840110" />
+    <node id="-139" lon="-74.5732538" lat="40.3840304" />
+    <node id="-140" lon="-74.5733046" lat="40.3840692" />
+    <node id="-141" lon="-74.5733300" lat="40.3840498" />
+    <way id="-35">
+      <nd ref="-138" />
+      <nd ref="-139" />
+      <nd ref="-140" />
+      <nd ref="-141" />
+      <nd ref="-138" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-142" lon="-74.5735002" lat="40.3841292" />
+    <node id="-143" lon="-74.5734748" lat="40.3841487" />
+    <node id="-144" lon="-74.5735256" lat="40.3841874" />
+    <node id="-145" lon="-74.5735510" lat="40.3841680" />
+    <way id="-36">
+      <nd ref="-142" />
+      <nd ref="-143" />
+      <nd ref="-144" />
+      <nd ref="-145" />
+      <nd ref="-142" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-146" lon="-74.5734748" lat="40.3841487" />
+    <node id="-147" lon="-74.5734494" lat="40.3841681" />
+    <node id="-148" lon="-74.5735002" lat="40.3842069" />
+    <node id="-149" lon="-74.5735256" lat="40.3841874" />
+    <way id="-37">
+      <nd ref="-146" />
+      <nd ref="-147" />
+      <nd ref="-148" />
+      <nd ref="-149" />
+      <nd ref="-146" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-150" lon="-74.5733784" lat="40.3842302" />
+    <node id="-151" lon="-74.5733531" lat="40.3842497" />
+    <node id="-152" lon="-74.5734039" lat="40.3842885" />
+    <node id="-153" lon="-74.5734292" lat="40.3842690" />
+    <way id="-38">
+      <nd ref="-150" />
+      <nd ref="-151" />
+      <nd ref="-152" />
+      <nd ref="-153" />
+      <nd ref="-150" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-154" lon="-74.5733531" lat="40.3842497" />
+    <node id="-155" lon="-74.5733277" lat="40.3842691" />
+    <node id="-156" lon="-74.5733785" lat="40.3843079" />
+    <node id="-157" lon="-74.5734039" lat="40.3842885" />
+    <way id="-39">
+      <nd ref="-154" />
+      <nd ref="-155" />
+      <nd ref="-156" />
+      <nd ref="-157" />
+      <nd ref="-154" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-158" lon="-74.5733277" lat="40.3842691" />
+    <node id="-159" lon="-74.5733023" lat="40.3842885" />
+    <node id="-160" lon="-74.5733532" lat="40.3843273" />
+    <node id="-161" lon="-74.5733785" lat="40.3843079" />
+    <way id="-40">
+      <nd ref="-158" />
+      <nd ref="-159" />
+      <nd ref="-160" />
+      <nd ref="-161" />
+      <nd ref="-158" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-162" lon="-74.5732542" lat="40.3843293" />
+    <node id="-163" lon="-74.5732288" lat="40.3843487" />
+    <node id="-164" lon="-74.5732796" lat="40.3843875" />
+    <node id="-165" lon="-74.5733050" lat="40.3843681" />
+    <way id="-41">
+      <nd ref="-162" />
+      <nd ref="-163" />
+      <nd ref="-164" />
+      <nd ref="-165" />
+      <nd ref="-162" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-166" lon="-74.5732742" lat="40.3841197" />
+    <node id="-167" lon="-74.5732489" lat="40.3841391" />
+    <node id="-168" lon="-74.5732997" lat="40.3841779" />
+    <node id="-169" lon="-74.5733250" lat="40.3841585" />
+    <way id="-42">
+      <nd ref="-166" />
+      <nd ref="-167" />
+      <nd ref="-168" />
+      <nd ref="-169" />
+      <nd ref="-166" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-170" lon="-74.5732489" lat="40.3841391" />
+    <node id="-171" lon="-74.5732235" lat="40.3841585" />
+    <node id="-172" lon="-74.5732743" lat="40.3841973" />
+    <node id="-173" lon="-74.5732997" lat="40.3841779" />
+    <way id="-43">
+      <nd ref="-170" />
+      <nd ref="-171" />
+      <nd ref="-172" />
+      <nd ref="-173" />
+      <nd ref="-170" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-174" lon="-74.5731753" lat="40.3841993" />
+    <node id="-175" lon="-74.5731500" lat="40.3842187" />
+    <node id="-176" lon="-74.5732008" lat="40.3842575" />
+    <node id="-177" lon="-74.5732261" lat="40.3842381" />
+    <way id="-44">
+      <nd ref="-174" />
+      <nd ref="-175" />
+      <nd ref="-176" />
+      <nd ref="-177" />
+      <nd ref="-174" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-178" lon="-74.5733274" lat="40.3839702" />
+    <node id="-179" lon="-74.5733020" lat="40.3839896" />
+    <node id="-180" lon="-74.5733528" lat="40.3840284" />
+    <node id="-181" lon="-74.5733782" lat="40.3840090" />
+    <way id="-45">
+      <nd ref="-178" />
+      <nd ref="-179" />
+      <nd ref="-180" />
+      <nd ref="-181" />
+      <nd ref="-178" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-182" lon="-74.5733020" lat="40.3839896" />
+    <node id="-183" lon="-74.5732767" lat="40.3840090" />
+    <node id="-184" lon="-74.5733275" lat="40.3840478" />
+    <node id="-185" lon="-74.5733528" lat="40.3840284" />
+    <way id="-46">
+      <nd ref="-182" />
+      <nd ref="-183" />
+      <nd ref="-184" />
+      <nd ref="-185" />
+      <nd ref="-182" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-186" lon="-74.5735255" lat="40.3841098" />
+    <node id="-187" lon="-74.5735002" lat="40.3841292" />
+    <node id="-188" lon="-74.5735510" lat="40.3841680" />
+    <node id="-189" lon="-74.5735763" lat="40.3841486" />
+    <way id="-47">
+      <nd ref="-186" />
+      <nd ref="-187" />
+      <nd ref="-188" />
+      <nd ref="-189" />
+      <nd ref="-186" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-190" lon="-74.5731500" lat="40.3842187" />
+    <node id="-191" lon="-74.5731246" lat="40.3842382" />
+    <node id="-192" lon="-74.5731754" lat="40.3842770" />
+    <node id="-193" lon="-74.5732008" lat="40.3842575" />
+    <way id="-48">
+      <nd ref="-190" />
+      <nd ref="-191" />
+      <nd ref="-192" />
+      <nd ref="-193" />
+      <nd ref="-190" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-194" lon="-74.5732310" lat="40.3840518" />
+    <node id="-195" lon="-74.5732056" lat="40.3840712" />
+    <node id="-196" lon="-74.5732565" lat="40.3841100" />
+    <node id="-197" lon="-74.5732818" lat="40.3840905" />
+    <way id="-49">
+      <nd ref="-194" />
+      <nd ref="-195" />
+      <nd ref="-196" />
+      <nd ref="-197" />
+      <nd ref="-194" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-198" lon="-74.5730048" lat="40.3838093" />
+    <node id="-199" lon="-74.5729820" lat="40.3838267" />
+    <node id="-200" lon="-74.5730379" lat="40.3838694" />
+    <node id="-201" lon="-74.5730607" lat="40.3838519" />
+    <way id="-50">
+      <nd ref="-198" />
+      <nd ref="-199" />
+      <nd ref="-200" />
+      <nd ref="-201" />
+      <nd ref="-198" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-202" lon="-74.5730761" lat="40.3839723" />
+    <node id="-203" lon="-74.5730532" lat="40.3839897" />
+    <node id="-204" lon="-74.5731091" lat="40.3840324" />
+    <node id="-205" lon="-74.5731320" lat="40.3840149" />
+    <way id="-51">
+      <nd ref="-202" />
+      <nd ref="-203" />
+      <nd ref="-204" />
+      <nd ref="-205" />
+      <nd ref="-202" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-206" lon="-74.5730835" lat="40.3837529" />
+    <node id="-207" lon="-74.5730606" lat="40.3837704" />
+    <node id="-208" lon="-74.5731140" lat="40.3838111" />
+    <node id="-209" lon="-74.5731368" lat="40.3837936" />
+    <way id="-52">
+      <nd ref="-206" />
+      <nd ref="-207" />
+      <nd ref="-208" />
+      <nd ref="-209" />
+      <nd ref="-206" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-210" lon="-74.5732945" lat="40.3841002" />
+    <node id="-211" lon="-74.5732717" lat="40.3841177" />
+    <node id="-212" lon="-74.5733250" lat="40.3841585" />
+    <node id="-213" lon="-74.5733479" lat="40.3841410" />
+    <way id="-53">
+      <nd ref="-210" />
+      <nd ref="-211" />
+      <nd ref="-212" />
+      <nd ref="-213" />
+      <nd ref="-210" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-214" lon="-74.5729161" lat="40.3838967" />
+    <node id="-215" lon="-74.5728932" lat="40.3839141" />
+    <node id="-216" lon="-74.5729441" lat="40.3839529" />
+    <node id="-217" lon="-74.5729669" lat="40.3839355" />
+    <way id="-54">
+      <nd ref="-214" />
+      <nd ref="-215" />
+      <nd ref="-216" />
+      <nd ref="-217" />
+      <nd ref="-214" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-218" lon="-74.5732056" lat="40.3840712" />
+    <node id="-219" lon="-74.5731828" lat="40.3840887" />
+    <node id="-220" lon="-74.5732336" lat="40.3841275" />
+    <node id="-221" lon="-74.5732565" lat="40.3841100" />
+    <way id="-55">
+      <nd ref="-218" />
+      <nd ref="-219" />
+      <nd ref="-220" />
+      <nd ref="-221" />
+      <nd ref="-218" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-222" lon="-74.5735458" lat="40.3840904" />
+    <node id="-223" lon="-74.5735230" lat="40.3841079" />
+    <node id="-224" lon="-74.5735738" lat="40.3841467" />
+    <node id="-225" lon="-74.5735966" lat="40.3841292" />
+    <way id="-56">
+      <nd ref="-222" />
+      <nd ref="-223" />
+      <nd ref="-224" />
+      <nd ref="-225" />
+      <nd ref="-222" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-226" lon="-74.5732770" lat="40.3843118" />
+    <node id="-227" lon="-74.5732542" lat="40.3843293" />
+    <node id="-228" lon="-74.5733050" lat="40.3843681" />
+    <node id="-229" lon="-74.5733278" lat="40.3843506" />
+    <way id="-57">
+      <nd ref="-226" />
+      <nd ref="-227" />
+      <nd ref="-228" />
+      <nd ref="-229" />
+      <nd ref="-226" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-230" lon="-74.5732007" lat="40.3841838" />
+    <node id="-231" lon="-74.5731779" lat="40.3842013" />
+    <node id="-232" lon="-74.5732261" lat="40.3842381" />
+    <node id="-233" lon="-74.5732490" lat="40.3842206" />
+    <way id="-58">
+      <nd ref="-230" />
+      <nd ref="-231" />
+      <nd ref="-232" />
+      <nd ref="-233" />
+      <nd ref="-230" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+    <node id="-234" lon="-74.5731600" lat="40.3841139" />
+    <node id="-235" lon="-74.5731372" lat="40.3841314" />
+    <node id="-236" lon="-74.5731854" lat="40.3841683" />
+    <node id="-237" lon="-74.5732083" lat="40.3841508" />
+    <way id="-59">
+      <nd ref="-234" />
+      <nd ref="-235" />
+      <nd ref="-236" />
+      <nd ref="-237" />
+      <nd ref="-234" />
+      <tag k="amenity" v="parking_space" />
+      <tag k="source" v="NJOGIS Natural Color Imagery 2020" />
+    </way>
+  </create>
+</osmChange>

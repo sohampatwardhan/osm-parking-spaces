@@ -1,0 +1,46 @@
+[project]
+name = "osm-parking-spaces"
+version = "0.1.0"
+description = "Detect painted parking stalls in aerial imagery and write OSM amenity=parking_space candidates"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Soham Patwardhan" }]
+dependencies = [
+  "numpy>=1.26",
+  "opencv-python-headless>=4.9",
+  "pyproj>=3.6",
+  "requests>=2.31",
+  "shapely>=2.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[project.scripts]
+osm-parking-spaces = "osm_parking_spaces.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/sohampatwardhan/osm-parking-spaces"
+Issues = "https://github.com/sohampatwardhan/osm-parking-spaces/issues/1"
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["osm_parking_spaces*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-m 'not live'"
+markers = [
+  "live: calls the OSM API or the NJOGIS WMS (off by default)",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
