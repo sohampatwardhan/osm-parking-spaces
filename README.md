@@ -94,6 +94,65 @@ See <https://www.openstreetmap.org/copyright>. The tool only sends a read-only
 GET for the way you name. Stall geometry comes from the imagery, clipped to
 that polygon.
 
+## Learned detector
+
+A second detector, tracked in
+[issue #3](https://github.com/sohampatwardhan/osm-parking-spaces/issues/3),
+trains a small U-Net from scratch on other New Jersey lots. It predicts a
+stall-interior mask. Connected components are snapped into rows with shared
+corners and written with the same GeoJSON, create-only `.osc`, and preview as
+the classical detector. There are no ImageNet weights. Licences are in
+[docs/licences.md](docs/licences.md).
+
+The ShopRite ways `1329737820` and `1329737821`, and any lot that touches a
+150 m buffer around them, are left out of the dataset.
+
+Install the extra, then on an Apple Silicon Mac (`mps` is used when it
+exists; otherwise training stays on CPU):
+
+```bash
+python3 -m pip install -e ".[ml]"
+```
+
+Build a dataset. The default bbox is New Jersey. `--max-lots` caps the
+download. A few dozen lots are a few megabytes to a few tens of megabytes
+and take several minutes. A statewide build is on the order of a few
+hundred megabytes and under an hour if Overpass and the WMS stay up.
+
+```bash
+osm-parking-spaces dataset \
+  --out data/nj \
+  --max-lots 40 \
+  --bbox 38.92,-75.58,41.36,-73.89
+```
+
+Train. Checkpoints and `metrics.jsonl` go to the output directory. Run the
+same command again to resume. Thirty epochs of this small network on a few
+hundred lots is on the order of 15–40 minutes on an M5 Pro.
+
+```bash
+osm-parking-spaces train --data data/nj --out runs/stall-unet --epochs 30 --device auto
+```
+
+Evaluate the held-out lots, then detect with the learned weights. Fetching
+imagery and scoring both lots is about one to two minutes. One `detect` call
+is a few seconds after the tile arrives.
+
+```bash
+osm-parking-spaces detect --detector ml --weights runs/stall-unet/checkpoint.pt \
+  --way 1329737820 --out-dir out/ml-1329737820
+osm-parking-spaces evaluate \
+  --detected out/ml-1329737820/stalls.geojson \
+  --truth tests/ground_truth/way-1329737820.geojson
+```
+
+Repeat for way `1329737821`. Optional Core ML export:
+
+```bash
+python3 -m pip install -e ".[ml,coreml]"
+osm-parking-spaces export-coreml --weights runs/stall-unet/checkpoint.pt --out runs/stall-unet/model.mlpackage
+```
+
 ## Tests
 
 ```bash

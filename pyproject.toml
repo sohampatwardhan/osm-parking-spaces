@@ -16,6 +16,8 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0", "ruff>=0.6"]
+ml = ["torch>=2.2"]
+coreml = ["coremltools>=8"]
 
 [project.scripts]
 osm-parking-spaces = "osm_parking_spaces.cli:main"

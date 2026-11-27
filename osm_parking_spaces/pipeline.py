@@ -28,12 +28,24 @@ class RunResult:
     preview_path: Path
 
 
-def detect_way(way_id: int, out_dir: Path, gsd_ft: float = 1.0) -> RunResult:
-    return run(fetch_way(way_id), out_dir, gsd_ft=gsd_ft)
+def detect_way(
+    way_id: int,
+    out_dir: Path,
+    gsd_ft: float = 1.0,
+    detector: str = "classical",
+    weights: Path | None = None,
+) -> RunResult:
+    return run(fetch_way(way_id), out_dir, gsd_ft=gsd_ft, detector=detector, weights=weights)
 
 
-def detect_geojson(path: Path, out_dir: Path, gsd_ft: float = 1.0) -> RunResult:
-    return run(load_polygon(path), out_dir, gsd_ft=gsd_ft)
+def detect_geojson(
+    path: Path,
+    out_dir: Path,
+    gsd_ft: float = 1.0,
+    detector: str = "classical",
+    weights: Path | None = None,
+) -> RunResult:
+    return run(load_polygon(path), out_dir, gsd_ft=gsd_ft, detector=detector, weights=weights)
 
 
 def run(
@@ -42,6 +54,8 @@ def run(
     gsd_ft: float = 1.0,
     wms_url: str = WMS_URL,
     wms_layer: str = WMS_LAYER,
+    detector: str = "classical",
+    weights: Path | None = None,
 ) -> RunResult:
     grid = plan_grid(lot_wgs84, gsd_ft=gsd_ft)
     if grid.width * grid.height > 8_000_000:
@@ -51,7 +65,19 @@ def run(
         )
     image = fetch_mosaic(grid, url=wms_url, layer=wms_layer)
     lot_px = polygon_to_pixels(lot_wgs84, grid)
-    stalls = detect_stalls(image, lot_px, gsd_ft=gsd_ft)
+    stalls = _detect(image, lot_px, gsd_ft, detector, weights)
     rings = shared_rings(stalls, grid)
     geojson_path, osc_path, preview_path = write_outputs(out_dir, image, lot_px, stalls, rings)
     return RunResult(len(stalls), geojson_path, osc_path, preview_path)
+
+
+def _detect(image, lot_px, gsd_ft: float, detector: str, weights: Path | None):
+    if detector == "classical":
+        return detect_stalls(image, lot_px, gsd_ft=gsd_ft)
+    if detector == "ml":
+        if weights is None:
+            raise ParkingError("ml detector requires --weights")
+        from osm_parking_spaces.ml.infer import detect_stalls_ml
+
+        return detect_stalls_ml(image, lot_px, weights, gsd_ft=gsd_ft)
+    raise ParkingError(f"Unknown detector {detector!r}. Use classical or ml.")
